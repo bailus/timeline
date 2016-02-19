@@ -1,0 +1,133 @@
+<!doctype html>
+<meta charset=utf-8>
+
+<title>NZ Networks</title>
+
+<link rel=stylesheet href=style.css>
+
+<script src=//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js></script>
+<script>
+var Range = function (i, j) {
+	for (; i <= j; this.push(i++));
+}; Range.prototype = Array.prototype;
+
+jQuery(function () {
+	"use strict";
+	window.hashchange = function (event) {
+		var networks = $('#networks'),
+		hash = document.location.hash,
+		year = hash.match(/\d{4}/),
+		month = hash.match(/(?:\d{4})\D/),
+		net = hash.match(/\D*/);
+		year = year instanceof Array ? year = year[0] : year = '';
+		month = month instanceof Array ? month = month[0] : month = '';
+		net = net instanceof Array ? net = net[0] : net = '';
+
+		//highlight the event in the list
+		networks.children().addClass('hide');
+		if (net !== '') {
+			var network = networks.children(net);
+			network.removeClass('hide');
+			network.find('.highlight').removeClass('highlight');
+			var events = network.children('.events');
+			events.css('top', network.children('.header').outerHeight());
+			var thisYear = events.children('[data-year="'+year+'"]');
+			if (month !== '') thisYear = thisYear.filter('[data-month="'+month+'"]')
+			thisYear.addClass('highlight');
+
+			//scroll to it
+			if (thisYear[0]) events[0].scrollTop = thisYear[0].offsetTop;
+		}
+
+		//highlight the event on the timeline
+		$('.event.highlight').attr('class','event');  //classList doesn't work with svg?
+		$('.event[href='+hash+']').attr('class','event highlight');
+
+		//scroll to it 
+		/*if (net !== '' && year === '') {//TODO: check if the event is already onscreen
+			var position = $('line[data-network="'+net.substring(1)+'"]').position();
+			document.body.scrollTop = position.top-200;
+			document.body.scrollLeft = position.left-600;
+		}*/
+
+		//hide/unhide the details pane
+		if (hash === '' || hash === '#' || hash === undefined) document.getElementById('details').classList.add('hide');
+		else document.getElementById('details').classList.remove('hide');
+	};
+	window.addEventListener('hashchange', hashchange);
+});
+
+jQuery(function () { //timeline
+	"use strict";
+	var timeline = document.getElementById('timeline'),
+	hover = document.getElementById('hover'),
+	details = document.getElementById('details');
+	jQuery.get('data/networks.xsl', function (xsl) {
+		var processor = new XSLTProcessor();
+		processor.importStylesheet(xsl);
+		jQuery.get('data/data.xml', function (xml) {
+			timeline.appendChild(processor.transformToFragment(xml,document));
+			$(timeline).find('g.event').on({
+				'mouseenter': function (event) {
+					hover.innerHTML = $(this).children('.hover').children('body').html();
+					hover.classList.remove('hide');
+				},
+				'mouseleave': function (event) {
+					hover.classList.add('hide');
+				},
+				'click': function (event) {
+					document.location.hash = $(this).attr('xlink:href');
+					details.classList.remove('hide');
+					event.stopPropagation();
+				}
+			});
+			hashchange();
+		});
+	});
+	document.addEventListener('mousemove', function (event) {
+		hover.style.left = event.clientX+8+'px';
+		hover.style.top = event.clientY+18+'px';
+	});
+	document.body.addEventListener('click', function (event) {
+		if (!$(details).has(event.target).length) document.location.hash = '';
+	});
+});
+jQuery(function () { //details
+	"use strict";
+	var details = document.getElementById('details');
+	jQuery.get('data/events.xsl', function (xsl) {
+		var processor = new XSLTProcessor();
+		processor.importStylesheet(xsl);
+		jQuery.get('data/data.xml', function (xml) {
+			details.appendChild(processor.transformToFragment(xml,document));
+			hashchange();
+			$('.events').children().on('click',function (e) {
+				var events = $(this),
+				network = events.parent().parent().attr('id'),
+				year = events.attr('data-year');
+				document.location.hash = '#'+network+year;
+			});
+		});
+	});
+});
+jQuery(function () { //background
+	"use strict";
+	var fragment = document.createDocumentFragment();
+	(new Range(1850,2013)).map(function (year) {
+		var elem = document.createElement('div');
+		elem.innerText = year;
+		fragment.appendChild(elem);
+	});
+	document.getElementById('years').appendChild(fragment);
+});
+
+</script>
+
+<body lang=en>
+
+<div id=details class=hide></div>
+<div id=years></div>
+<div id=timeline></div>
+<div id=hover class=hide></div>
+
+

@@ -1,0 +1,216 @@
+<!doctype html>
+<meta charset=utf-8>
+
+<title>NZ Networks</title>
+
+<link rel=stylesheet href=style.css>
+
+<script src=//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js></script>
+<script>
+var Range = function (i, j) {
+	for (; i <= j; this.push(i++));
+}; Range.prototype = Array.prototype;
+
+var requestAnimationFrame = window.requestAnimationFrame ||
+      window.webkitRequestAnimationFrame ||
+      window.mozRequestAnimationFrame ||
+      window.oRequestAnimationFrame ||
+      window.msRequestAnimationFrame ||
+      function(c){ window.setTimeout(c, 100); }
+
+jQuery(function () {
+	"use strict";
+	var oldNet = '';
+	window.hashchange = function (event) {
+		var networks = $('#networks'),
+		netChanged,
+		hash = document.location.hash,
+		year = hash.match(/\d{4}/),
+		month = hash.match(/-\d*$/),
+		net = hash.match(/\D*/);
+		year = year instanceof Array ? year = year[0] : year = '';
+		month = month instanceof Array ? month = month[0].slice(1) : month = '';
+		net = net instanceof Array ? net = net[0] : net = '';
+		netChanged = oldNet !== net;
+		oldNet = net;
+		if (netChanged) networks.children().addClass('hide');
+		if (net && net !== '') {
+			var network = networks.children(net);
+			if (netChanged) network.removeClass('hide');
+			network.find('.highlight').removeClass('highlight');
+			var events = network.children('.events');
+			events.css('top', network.children('.header').outerHeight());
+			var thisYear = events.children('[data-year="'+year+'"]');
+			if (month !== '') thisYear = thisYear.filter('[data-month="'+month+'"]');
+			else thisYear = thisYear.filter('[data-month=""]');
+			thisYear.addClass('highlight');
+
+			var windowHeight = $('#details').height();
+			var windowWidth = $('body').width();
+			var detailsHeight = windowHeight-$('#networks').outerHeight();
+			var detailsWidth = $('#networks').outerWidth();
+
+			if (thisYear.length) {
+				var detailHeight = 0
+				thisYear.each(function () {
+					detailHeight += $(this).outerHeight();
+				});
+
+				//scroll to it
+				events.clearQueue().animate({
+					scrollTop: thisYear[0].offsetTop-(detailsHeight/2)+(detailHeight/2),
+				}, netChanged ? 0 : 400);
+			}
+
+			//highlight the event on the timeline
+			$('.event.highlight').attr('class','event');  //classList doesn't work with svg?
+			$('.event[href='+hash+']').attr('class','event highlight');
+
+			//scroll to it 
+			var elem = $('[href="'+hash+'"]')
+			var offset = elem.offset();
+			offset.left = elem.children().attr('x1') || offset.left;
+			offset.top = elem.children().attr('y1') || offset.top;
+			if (offset) $('html, body').clearQueue().animate({
+				scrollTop: offset.top-(windowHeight/2)+10,
+				scrollLeft: offset.left-((windowWidth+detailsWidth)/2)+10
+			}, 400);
+		}
+
+		//hide/unhide the details pane
+		if (hash === '' || hash === '#' || hash === undefined) document.getElementById('details').classList.add('hide');
+		else document.getElementById('details').classList.remove('hide');
+	};
+	window.addEventListener('hashchange', hashchange);
+});
+var loading = 2;
+jQuery(function () { //timeline
+	"use strict";
+	var timeline = document.getElementById('timeline'),
+	hover = document.getElementById('hover'),
+	details = document.getElementById('details');
+	jQuery.get('data/networks.xsl', function (xsl) {
+		var processor = new XSLTProcessor();
+		processor.importStylesheet(xsl);
+		jQuery.get('data/data.xml', function (xml) {
+			timeline.appendChild(processor.transformToFragment(xml,document));
+			$(timeline).find('g.event').on({
+				'mouseenter': function (event) {
+					hover.innerHTML = $(this).children('.hover').children('body').html();
+					hover.classList.remove('hide');
+				},
+				'mouseleave': function (event) {
+					hover.classList.add('hide');
+				},
+				'click': function (event) {
+					document.location.hash = $(this).attr('xlink:href');
+					details.classList.remove('hide');
+					return false;
+				}
+			});
+			if (!--loading) hashchange();	
+		});
+	});
+	document.addEventListener('mousemove', function (event) {
+		hover.style.left = event.clientX+8+'px';
+		hover.style.top = event.clientY+18+'px';
+	});
+	document.body.addEventListener('click', function (e) {
+		if ($(e.target).attr('href') || $(e.target).attr('xlink:href')) return true; //don't capture clicks on links
+		//the browser has a nasty habit of scrolling to the top of the page when document.location.hash is empty...
+		var scrollTop = document.body.scrollTop;
+		document.location.hash = '#';
+		document.body.scrollTop = scrollTop;
+	});
+});
+function eventScroll (delta) {
+	var event = $('.events').children('[data-href="'+document.location.hash+'"]');
+	if (delta < 0) event = $(event.get(event.length-1)).next('[data-href]');
+	else if (delta > 0) event = event.prev('[data-href]');
+	if (event.length) document.location.hash = event.attr('data-href');
+	//else document.location.hash = $((document.location.hash.match(/\D*/) || [''])[0]).children('.events').children('[data-href]').attr('data-href');
+	return false;
+};
+function networkScroll (delta) {
+	var network = $((document.location.hash.match(/\D*/) || [''])[0]);
+	var year = (document.location.hash.match(/\d{4}/) || [''])[0];
+	if (delta < 0) network = $(network.get(network.length-1)).next();
+	else if (delta > 0) network = network.prev();
+	if (!network.length) return;
+	if (year>0) {
+		var index = 0;
+		var closest;
+		var events = network.find('[data-year]');
+		events.each(function (i) {
+			var distance = Math.abs($(this).attr('data-year')-year);
+			console.log(i, distance, closest)
+			if (closest === undefined || distance < closest) {
+				closest = distance;
+				index = i;
+			}
+		});
+		console.log(index)
+		document.location.hash = $(events.get(index)).attr('data-href');
+	} else {
+		document.location.hash = '#'+network.attr('id');
+	}
+	return false;
+};
+//$('html').on('mousewheel',function (e) {
+//	return networkScroll(e.originalEvent.wheelDelta);
+//});
+$('html').on('keydown',function (e) {
+	var code = e.keyCode;
+	if (code === 37) return eventScroll(1);
+	if (code === 39) return eventScroll(-1);
+	if (code === 38) return networkScroll(1);
+	if (code === 40) return networkScroll(-1);
+});
+jQuery(function () { //details
+	"use strict";
+	var details = document.getElementById('details'),
+	$details = $(details),
+	$networks = $(document.getElementById('networks'));
+	jQuery.get('data/events.xsl', function (xsl) {
+		var processor = new XSLTProcessor();
+		processor.importStylesheet(xsl);
+		jQuery.get('data/data.xml', function (xml) {
+			details.appendChild(processor.transformToFragment(xml,document));
+			if (!--loading) hashchange();
+			$('.events').children().on('click',function (e) {
+				if (e.target.tagName === 'A') return true; //don't capture clicks on <a> tags
+				var events = $(this),
+				network = events.parent().parent().attr('id'),
+				year = events.attr('data-year'),
+				month = events.attr('data-month');
+				document.location.hash = '#'+network+year+(month?'-'+month:'');
+				return false;
+			});
+			$('.events').on('mousewheel',function (e) {
+				eventScroll(e.originalEvent.wheelDelta);
+				return false;
+			});
+		});
+	});
+});
+jQuery(function () { //background
+	"use strict";
+	var fragment = document.createDocumentFragment();
+	(new Range(1850,2013)).map(function (year) {
+		var elem = document.createElement('div');
+		elem.innerHTML = year;
+		fragment.appendChild(elem);
+	});
+	document.getElementById('years').appendChild(fragment);
+});
+
+</script>
+
+<body lang=en>
+
+<div id=details class=hide></div>
+<div id=years></div>
+<div id=timeline></div>
+<div id=hover class=hide></div>
+
+

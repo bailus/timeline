@@ -1,0 +1,2239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timeline>
+	<networks>
+		<network>
+			<id>easternextension</id>
+			<name>The Eastern Extension, Australasia and China Telegraph Company</name>
+			<org>commercial</org>
+			<region>International</region>
+			<description>The Eastern Extension, Australasia and China Telegraph Company (EEAC) was formed in 1873 as a merger of The British - Indian Extension Telegraph Company, The British - Australian Telegraph Company, and The China Submarine Telegraph Company.</description>
+			<start>
+				<year>1876</year>
+			</start>
+			<end>
+				<year>1927</year>
+			</end>
+			<becomes>cableandwireless</becomes>
+		</network>
+		<network>
+			<id>cableandwireless</id>
+			<name>Cable &amp; Wireless</name>
+			<org>commercial</org>
+			<region>International</region>
+			<start>
+				<year>1927</year>
+			</start>
+			<end>
+				<year>1945</year>
+			</end>
+			<becomes>PandT</becomes>
+		</network>
+		<network>
+			<id>pacificcable</id>
+			<name>Pacific Cable</name>
+			<org>commercial</org>
+			<region>International</region>
+			<start>
+				<day>26</day>
+				<month>3</month>
+				<year>1901</year>
+			</start>
+			<end>
+				<year>1945</year>
+			</end>
+			<becomes>PandT</becomes>
+		</network>
+		<network>
+			<id>compac</id>
+			<name>COMPAC</name>
+			<org>government</org>
+			<region>International</region>
+			<description>The Commonwealth Pacific Cable System was an undersea telephone cable system connecting New Zealand and Australia with Canada. The capacity of COMPAC was eighty telephone circuits each of which could carry twenty two telegraph circuits. COMPAC was part of a scheme to link the major countries of the Commonwealth with a round the world telephone cable.</description>
+			<start>
+				<year>1962</year>
+			</start>
+			<end>
+				<year>1984</year>
+			</end>
+			<becomes>anzcan</becomes>
+		</network>
+		<network>
+			<id>anzcan</id>
+			<name>ANZCAN</name>
+			<org>government</org>
+			<region>International</region>
+			<description>Laid as a replacement for COMPAC, ANZCAN followed the same route from Australia and New Zealand to Canada, with the addition of a landing at Norfolk Island. The cable had a capacity of 1,380 telephone circuits.</description>
+			<start>
+				<year>1984</year>
+			</start>
+			<end>
+				<year>2002</year>
+			</end>
+		</network>
+		<network>
+			<id>tasman</id>
+			<name>Tasman-2</name>
+			<org>commercial</org>
+			<region>International</region>
+			<start>
+				<year>1992</year>
+				<month>3</month>
+			</start>
+		</network>
+		<network>
+			<id>pacrim</id>
+			<name>PacRimEast</name>
+			<org>commercial</org>
+			<region>International</region>
+			<start>
+				<year>1993</year>
+			</start>
+			<end>
+				<year>2009</year>
+			</end>
+		</network>
+		<network>
+			<id>southerncross</id>
+			<name>Southern Cross</name>
+			<org>commercial</org>
+			<region>International</region>
+			<start>
+				<year>2000</year>
+			</start>
+		</network>
+		<network>
+			<id>ETD</id>
+			<name>Electric Telegraph Department</name>
+			<org>government</org>
+			<region>National</region>
+			<start>
+				<year>1863</year>
+			</start>
+			<end>
+				<year>1881</year>
+			</end>
+			<becomes>PandT</becomes>
+		</network>
+		<network>
+			<id>PandT</id>
+			<name>New Zealand Post and Telegraph Department</name>
+			<org>government</org>
+			<region>National</region>
+			<description>A New Zealand government department. Also known as P &amp; T.</description>
+			<start>
+				<year>1881</year>
+			</start>
+			<end>
+				<year>1959</year>
+			</end>
+			<becomes>NZPO</becomes>
+		</network>
+		<network>
+			<id>NZPO</id>
+			<name>New Zealand Post Office</name>
+			<org>government</org>
+			<region>National</region>
+			<description>A New Zealand government department. Also known as N.Z.P.O.</description>
+			<start>
+				<year>1959</year>
+			</start>
+			<end>
+				<year>1987</year>
+				<month>4</month>
+				<day>1</day>
+			</end>
+			<becomes>oldtelecom</becomes>
+		</network>
+		<network>
+			<id>oldtelecom</id>
+			<name>Telecom (SOE)</name>
+			<org>government</org>
+			<region>National</region>
+			<start>
+				<year>1987</year>
+				<month>4</month>
+				<day>1</day>
+			</start>
+			<end>
+				<year>1990</year>
+				<month>6</month>
+				<day>14</day>
+			</end>
+			<becomes>telecom</becomes>
+		</network>
+		<network>
+			<id>telecom</id>
+			<name>Telecom</name>
+			<org>commercial</org>
+			<region>National</region>
+			<start>
+				<year>1990</year>
+				<month>6</month>
+				<day>14</day>
+			</start>
+		</network>
+		<network>
+			<id>chorus</id>
+			<name>Chorus</name>
+			<org>commercial</org>
+			<region>National</region>
+			<start>
+				<day>1</day>
+				<month>12</month>
+				<year>2011</year>
+			</start>
+		</network>
+		<network>
+			<id>waikato</id>
+			<name>University of Waikato</name>
+			<region>National</region>
+			<start>
+				<year>1987</year>
+			</start>
+			<end>
+				<year>1998</year>
+				<month>12</month>
+			</end>
+		</network>
+		<network>
+			<id>massey</id>
+			<name>Massey University</name>
+			<region>National</region>
+			<start>
+				<year>1975</year>
+			</start>
+			<end>
+				<year>1995</year>
+				<month>8</month>
+			</end>
+			<becomes>netlink</becomes>
+		</network>
+		<network>
+			<id>au</id>
+			<name>Auckland University</name>
+			<region>National</region>
+			<start>
+				<year>1975</year>
+			</start>
+			<end>
+				<year>1995</year>
+				<month>8</month>
+			</end>
+			<becomes>netlink</becomes>
+		</network>
+		<network>
+			<id>vuw</id>
+			<name>Victoria University</name>
+			<region>National</region>
+			<start>
+				<year>1975</year>
+			</start>
+			<end>
+				<year>1995</year>
+				<month>4</month>
+			</end>
+			<becomes>netlink</becomes>
+		</network>
+		<!--<network>
+			<id>tuianet</id>
+			<name>TuiaNet</name>
+			<region>National</region>
+			<description>TuiaNet was a research and education network provided by an organisation made up of universities, Crown Research Institutes and a small number of other bodies.</description>
+			<start>
+				<year>1992</year>
+			</start>
+			<end>
+				<year>1993</year>
+			</end>
+		</network>-->
+		<network>
+			<id>netlink</id>
+			<name>NetLink</name>
+			<region>National</region>
+			<start>
+				<year>1995</year>
+				<month>4</month>
+			</start>
+			<end>
+				<day>29</day>
+				<month>6</month>
+				<year>2000</year>
+			</end>
+			<becomes>telstrasaturn</becomes>
+		</network>
+		<network>
+			<id>kiwicable</id>
+			<name>Kiwi Cable</name>
+			<region>National</region>
+			<start>
+				<day>19</day>
+				<month>7</month>
+				<year>1989</year>
+			</start>
+			<end>
+				<day>19</day>
+				<month>2</month>
+				<year>1996</year>
+			</end>
+			<becomes>saturn</becomes>
+		</network>
+		<network>
+			<id>saturn</id>
+			<name>Saturn Communications</name>
+			<region>National</region>
+			<description>Saturn Communications built and operated cable television and telephone services in and around Wellington and then later in Christchurch. The network was based on Hybrid Fibre Coaxial technology with additional twisted pair cabling to provide telephone services.</description>
+			<start>
+				<day>19</day>
+				<month>2</month>
+				<year>1996</year>
+			</start>
+			<end>
+				<day>29</day>
+				<month>4</month>
+				<year>2000</year>
+			</end>
+			<becomes>telstrasaturn</becomes>
+		</network>
+		<network>
+			<id>telstra</id>
+			<name>Telstra New Zealand</name>
+			<region>National</region>
+			<start>
+				<year>1996</year>
+			</start>
+			<end>
+				<day>29</day>
+				<month>4</month>
+				<year>2000</year>
+			</end>
+			<becomes>telstrasaturn</becomes>
+		</network>
+		<network>
+			<id>telstrasaturn</id>
+			<name>TelstraSaturn</name>
+			<region>National</region>
+			<start>
+				<day>29</day>
+				<month>4</month>
+				<year>2000</year>
+			</start>
+			<end>
+				<day>1</day>
+				<month>12</month>
+				<year>2001</year>
+			</end>
+			<becomes>telstraclear</becomes>
+		</network>
+		<network>
+			<id>nzrail</id>
+			<name>New Zealand Railways</name>
+			<region>National</region>
+			<start>
+				<year>1988</year>
+				<month>6</month>
+			</start>
+			<end>
+				<year>1990</year>
+				<month>9</month>
+				<day>28</day>
+			</end>
+			<becomes>clear</becomes>
+		</network>
+		<network>
+			<id>clear</id>
+			<name>Clear Communications</name>
+			<region>National</region>
+			<description>Clear Communications was a telecommunications company based in New Zealand. Until its acquisition by TelstraSaturn, it was the biggest rival to Telecom New Zealand.</description>
+			<start>
+				<year>1990</year>
+				<month>9</month>
+				<day>28</day>
+			</start>
+			<end>
+				<day>1</day>
+				<month>12</month>
+				<year>2001</year>
+			</end>
+			<becomes>telstraclear</becomes>
+		</network>
+		<network>
+			<id>telstraclear</id>
+			<name>TelstraClear</name>
+			<region>National</region>
+			<start>
+				<day>1</day>
+				<month>12</month>
+				<year>2001</year>
+			</start>
+			<end>
+				<day>31</day>
+				<month>10</month>
+				<year>2012</year>
+			</end>
+			<becomes>vodafone</becomes>
+		</network>
+		<network>
+			<id>ihug</id>
+			<name>ihug</name>
+			<region>National</region>
+			<start>
+				<year>1994</year>
+			</start>
+			<end>
+				<year>2006</year>
+			</end>
+			<becomes>vodafone</becomes>
+		</network>
+		<network>
+			<id>bellsouth</id>
+			<name>BellSouth New Zealand</name>
+			<region>National</region>
+			<start>
+				<year>1993</year>
+			</start>
+			<end>
+				<month>11</month>
+				<year>1998</year>
+			</end>
+			<becomes>vodafone</becomes>
+		</network>
+		<network>
+			<id>vodafone</id>
+			<name>Vodafone New Zealand</name>
+			<region>National</region>
+			<start>
+				<month>11</month>
+				<year>1998</year>
+			</start>
+		</network>
+		<network>
+			<id>wiredcountry</id>
+			<name>Wired Country</name>
+			<region>National</region>
+			<description>Wired Country was a network provider with fibre and wireless networks in Auckland and Hamilton.</description>
+			<start>
+				<day>8</day>
+				<month>5</month>
+				<year>2003</year>
+			</start>
+			<end>
+				<day>1</day>
+				<month>11</month>
+				<year>2005</year>
+			</end>
+			<becomes>compass</becomes>
+		</network>
+		<network>
+			<id>compass</id>
+			<name>Compass Communications</name>
+			<region>National</region>
+			<start>
+				<year>1995</year>
+			</start>
+		</network>	
+		<network>
+			<id>callplus</id>
+			<name>CallPlus</name>
+			<region>National</region>
+			<description>CallPlus is a New Zealand telecommunications company, parent of internet service provider Slingshot. It provides voice and data communication services to business customers. CallPlus is the fourth-largest telecommunications company in New Zealand, with revenues of over NZ$100 million (as of 2009).</description>
+			<start>
+				<month>4</month>
+				<year>2000</year>
+			</start>
+		</network>	
+		<network>
+			<id>twoDegrees</id>
+			<name>2degrees</name>
+			<region>National</region>
+			<description>2degrees is a US and British owned mobile phone provider operating in New Zealand with over 1,000,000 customers.</description>
+			<start>
+				<day>5</day>
+				<month>8</month>
+				<year>2009</year>
+			</start>
+		</network>
+		<network>
+			<id>spearnet</id>
+			<name>SPEARNET</name>
+			<region>National</region>
+			<start>
+				<year>1987</year>
+			</start>
+			<end>
+				<year>1990</year>
+				<month>4</month>
+			</end>
+		</network>
+		<network>
+			<id>dsirnet</id>
+			<name>DSIRnet</name>
+			<region>National</region>
+			<start>
+				<year>1977</year>
+			</start>
+			<end>
+				<year>1992</year>
+				<month>7</month>
+			</end>
+			<becomes>crinet</becomes>
+		</network>
+		<network>
+			<id>crinet</id>
+			<name>CRInet</name>
+			<region>National</region>
+			<start>
+				<year>1992</year>
+				<month>7</month>
+			</start>
+			<end>
+				<year>1996</year>
+			</end>
+		</network>
+		<network>
+			<id>comnet</id>
+			<name>Comnet</name>
+			<region>National</region>
+			<start>
+				<year>1996</year>
+			</start>
+			<end>
+				<year>2004</year>
+			</end>
+		</network>
+		<network>
+			<id>citynet</id>
+			<name>CityNet</name>
+			<region>National</region>
+			<start>
+				<year>1986</year>
+			</start>
+			<end>
+				<year>1996</year>
+			</end>
+		</network>
+		<network>
+			<id>actrix</id>
+			<name>Actrix</name>
+			<region>National</region>
+			<start>
+				<year>1989</year>
+				<month>11</month>
+			</start>
+		</network>
+		<network>
+			<id>compuserve</id>
+			<name>CompuServe Pacific</name>
+			<region>National</region>
+			<start>
+				<year>1990</year>
+			</start>
+			<end>
+				<year>2007</year>
+				<month>8</month>
+				<day>31</day>
+			</end>
+		</network>
+		<network>
+			<id>citylink</id>
+			<name>Citylink</name>
+			<region>National</region>
+			<start>
+				<year>1996</year>
+			</start>
+		</network>
+		<network>
+			<id>fx</id>
+			<name>FX Networks</name>
+			<region>National</region>
+			<start>
+				<year>2006</year>
+				<month>9</month>
+			</start>
+		</network>
+		<network>
+			<id>smartlinx</id>
+			<name>Smartlinx3</name>
+			<region>National</region>
+			<start>
+				<year>2004</year>
+			</start>
+		</network>
+	</networks>
+	<events>
+		<event>
+			<year>1858</year>
+			<date>24 July</date>
+			<month>7</month>
+			<category>telegraph</category>
+			<network>ETD</network>
+			<description>The general telegraph superintendent for Victoria, S. B. McCowan, proposes that Australia and New Zealand be connected by electric cable.</description>
+			<cite href="http://www.nethistory.co.nz/">Keith Newman, Connecting the Clouds - The Internet in New Zealand, updated 21-Sep-12</cite>
+		</event>
+		<event>
+			<year>1862</year>
+			<date>18 June</date>
+			<month>6</month>
+			<category>telegraph</category>
+			<network>ETD</network>
+			<description>New Zealand’s first telegraph line.</description>
+			<longdesc>New Zealand’s first telegraph line, following the railway track between Lyttelton and Christchurch, was built by Melbourne company George Holmes and Co.</longdesc>
+			<cite href="http://www.nethistory.co.nz/">Keith Newman, Connecting the Clouds - The Internet in New Zealand, updated 21-Sep-12</cite>
+		</event>
+		<event>
+			<year>1863</year>
+			<category>telegraph</category>
+			<network>ETD</network>
+			<description>The Electric Telegraph Department is created, placing the many independent telegraph networks under centralised control.</description>
+			<cite href="http://www.nethistory.co.nz/">Keith Newman, Connecting the Clouds - The Internet in New Zealand, updated 21-Sep-12</cite>
+		</event>
+		<event>
+			<year>1865</year>
+			<date>26 August</date>
+			<month>8</month>
+			<category>telegraph</category>
+			<network>ETD</network>
+			<description>New Zealand's first undersea telegraph cable laid across the Cook Strait.</description>
+			<cite href="http://www.nethistory.co.nz/">Keith Newman, Connecting the Clouds - The Internet in New Zealand, updated 21-Sep-12</cite>
+		</event>
+		<event>
+			<year>1876</year>
+			<category>telegraph</category>
+			<network>easternextension</network>
+			<description>The first trans-tasman telegraph cable is laid from Sydney to Nelson for Eastern Extension.</description>
+			<longdesc>The first trans-tasman telegraph cable is laid for Eastern Extension from Sydney to Nelson by the Telegraph Construction and Maintenance Company, using CS’s Hibernia and Edinburgh.</longdesc>
+			<img src="Laying-the-cable-Botany-Bay-Feb-1876"/>
+			<cite href="http://atlantic-cable.com/CableCos/NewZealand/index.htm">Bill Glover, History of the Atlantic Cable &amp; Undersea Communications, Last Changed 8-Feb-12</cite>
+		</event>
+		<event>
+			<year>1876</year>
+			<month>3</month>
+			<category>telephone</category>
+			<description>Alexander Graham Bell patents the telephone.</description>
+		</event>
+		<event>
+			<year>1877</year>
+			<category>telephone</category>
+			<network>ETD</network>
+			<description>The first ‘talking telegraph’ trial in New Zealand.</description>
+			<longdesc>Dunedin electrician, Charles A. Henry, organised the first ‘talking telegraph’ trial after putting together a telephone based on what he had read in a magazine. It was attached to the existing telegraph wire between the Dunedin Telegraph office and the Milton office – a distance of 57km.</longdesc>
+			<cite href="http://www.nethistory.co.nz/">Keith Newman, Connecting the Clouds - The Internet in New Zealand, updated 21-Sep-12</cite>
+		</event>
+		<event>
+			<year>1877</year>
+			<category>telephone</category>
+			<description>First telephone line installed between Kaiapoi and Addington.</description>
+			<cite href="http://www.nethistory.co.nz/">Keith Newman, Connecting the Clouds - The Internet in New Zealand, updated 21-Sep-12</cite>
+		</event>
+		<event>
+			<year>1878</year>
+			<category>telephone</category>
+			<description>New Zealand's first commercial telephone service installed in Christchurch.</description>
+			<cite href="http://www.nethistory.co.nz/">Keith Newman, Connecting the Clouds - The Internet in New Zealand, updated 21-Sep-12</cite>
+		</event>
+		<event>
+			<year>1879</year>
+			<category>telegraph</category>
+			<network>ETD</network>
+			<description>Operators at the Electric Telegraph Department go on a nationwide strike.</description>
+			<longdesc>Operators at the Electric Telegraph Department go on a nationwide strike when their overtime allowances are cut and the working day lengthened by one and a half hours. The strike was broken several days later with the men forced to sign an apology for striking and being fined as well as losing their pay for the days off.</longdesc>
+			<cite href="http://www.nethistory.co.nz/">Keith Newman, Connecting the Clouds - The Internet in New Zealand, updated 21-Sep-12</cite>
+		</event>
+		<event>
+			<year>1880</year>
+			<category>telephone</category>
+			<network>ETD</network>
+			<description>The 1875 Electric Telegraph Act is ammended to give the state full control of all telephone networks.</description>
+			<cite href="http://www.nethistory.co.nz/">Keith Newman, Connecting the Clouds - The Internet in New Zealand, updated 21-Sep-12</cite>
+		</event>
+		<event>
+			<year>1881</year>
+			<category>telegraph</category>
+			<network>ETD</network>
+			<network>PandT</network>
+			<description>The Post Office and The Electric Telegraph Department become the New Zealand Post and Telegraph Department.</description>
+			<img src="PandT.jpg"/>
+			<cite href="http://www.teara.govt.nz/en/1966/post-office/1">'HISTORY', from An Encyclopaedia of New Zealand, edited by A. H. McLintock, originally published in 1966.
+Te Ara - the Encyclopedia of New Zealand, updated 22-Apr-09</cite>
+		</event>
+		<event>
+			<year>1881</year>
+			<month>10</month>
+			<day>1</day>
+			<category>telephone</category>
+			<network>PandT</network>
+			<description>New Zealand's first manual telephone exchange is installed in Christchurch.</description>
+			<cite href="http://www.TeAra.govt.nz/en/telecommunications/2">A. C. Wilson. 'Telecommunications - Telephones, 1877–1914', Te Ara - the Encyclopedia of New Zealand, updated 4-Jul-12</cite>
+		</event>
+		<event>
+			<year>1890</year>
+			<category>telegraph</category>
+			<network>easternextension</network>
+			<description>A duplicate cable is laid from La Perouse in Sydney to Cable Bay in Nelson.</description>
+			<img src="Cable-Station-Nelson-NZ.jpg"/>
+			<cite href="http://www.atlantic-cable.com/CableCos/CandW/EExt/index.htm">Bill Glover, History of the Atlantic Cable &amp; Undersea Communications, Last Changed 8-Feb-12</cite>
+		</event>
+		<event>
+			<year>1901</year>
+			<category>telegraph</category>
+			<network>easternextension</network>
+			<description>In response to competition from Pacific Cable, Eastern improves its service to Australia by building new cables from Cape Town (South Africa) - Durban - Mauritius - Rodriguez Island - Cocos Islands - Perth - Adelaide. Previously built cables in the Atlantic Ocean link Cape Town to Africa, Europe and America.</description>
+			<cite href="http://www.atlantic-cable.com/CableCos/CandW/EExt/index.htm">Bill Glover, History of the Atlantic Cable &amp; Undersea Communications, Last Changed 8-Feb-12</cite>
+		</event>
+		<event>
+			<year>1901</year>
+			<month>3</month>
+			<category>telegraph</category>
+			<network>pacificcable</network>
+			<description>Pacific Cable links the Gold Coast to Auckland.</description>
+			<longdesc>Pacific Cable links Queensland’s Gold Coast to Doubtless Bay in the Far North of New Zealand. From Doubtless bay an overland telegraph runs from Whangarei and on to Auckland.</longdesc>
+		</event>
+		<event>
+			<year>1903</year>
+			<month>9</month>
+			<category>radio</category>
+			<network>radio</network>
+			<description>The Wireless Telegraphy Act</description>
+			<longdesc>The Wireless Telegraphy Act 1903 gives the government complete control of wireless communications. Anyone involved in unauthorised wireless telegraphy was subject to a £500 fine and confiscation of equipment.</longdesc>
+		</event>
+		<event>
+			<year>1906</year>
+			<category>radio</category>
+			<network>radio</network>
+			<description>New Zealand's first domestic radio transmission</description>
+			<longdesc>New Zealand's first domestic radio transmission was made by the Marconi Company at the 1906 Christchurch International Exhibition.</longdesc>
+		</event>
+		<event>
+			<year>1908</year>
+			<month>2</month>
+			<category>radio</category>
+			<network>radio</network>
+			<description>First trans-tasman radio transmission.</description>
+			<longdesc>First trans-tasman radio transmission made from HMS Pioneer in Wellington Harbour via HMS Powerful in the Tasman Sea to HMS Psyche in Sydney Harbour.</longdesc>
+		</event>
+		<event>
+			<year>1910</year>
+			<category>telephone</category>
+			<network>PandT</network>
+			<description>The first coin-operated telephone is trialled experimentally in Wellington for local calls.</description>
+		</event>
+		<event>
+			<year>1911</year>
+			<category>telegraph</category>
+			<network>pacificcable</network>
+			<description>The Pacific Cable Board moves its Doubtless Bay cable to Auckland’s Takapuna Beach and installs telegraph cable from Muriwai Beach to Bondi Beach in Sydney.</description>
+		</event>
+		<event>
+			<year>1912</year>
+			<category>telephone</category>
+			<network>PandT</network>
+			<description>The Government passes the Country Telecommunications Act, enabling people in rural areas to build their own telephone networks that link into the public network.</description>
+		</event>
+		<event>
+			<year>1912</year>
+			<category>telephone</category>
+			<network>PandT</network>
+			<description>Automatic exchange equipment is installed in Auckland and Wellington to supplement manual exchanges.</description>
+		</event>
+		<event>
+			<year>1914</year>
+			<category>telegraph</category>
+			<network>easternextension</network>
+			<description>Germans attack the Eastern Extension landing stations at Fanning and Cocos Islands, disrupting services to Africa and America.</description>
+		</event>
+		<event>
+			<year>1915</year>
+			<category>telegraph</category>
+			<network>easternextension</network>
+			<description>Eastern Extension’s trans-Tasman cables are re-routed to Titahi Bay, with underground cables running to Wellington.</description>
+		</event>
+		<event>
+			<year>1919</year>
+			<category>telephone</category>
+			<network>PandT</network>
+			<description>Masterton becomes the first town in New Zealand to have a fully automated telephone exchange.</description>
+		</event>
+		<event>
+			<year>1921</year>
+			<category>telegraph</category>
+			<network>PandT</network>
+			<description>New Zealand-designed multiplex telegraphy printing equipment, which could handle four messages simultaneously in each direction on each circuit, came into use between Wellington and Christchurch.</description>
+		</event>
+		<event>
+			<year>1923</year>
+			<category>telegraph</category>
+			<network>pacificcable</network>
+			<description>The Pacific Cable Board lays a second undersea cable between Suva and Auckland.</description>
+		</event>
+		<event>
+			<year>1925</year>
+			<category>telephone</category>
+			<network>PandT</network>
+			<description>First private automatic branch exchange (PABX) systems are installed in New Zealand.</description>
+		</event>
+		<event>
+			<year>1926</year>
+			<category>telegraph</category>
+			<network>easternextension</network>
+			<description>A duplicate cable is laid from the Cocos Islands to Cottesloe Beach in Adelaide.</description>
+			<img src="The-Cable-Station-Cottesloe-Beach-WA"/>
+		</event>
+		<event>
+			<year>1926</year>
+			<category>telephone</category>
+			<network>PandT</network>
+			<description>Undersea telephone cable laid to Cook Strait using Frequency Division Multiplexing to transmit many phone calls over a single pair of wires.</description>
+		</event>
+		<event>
+			<year>1927</year>
+			<category>radio</category>
+			<network>radio</network>
+			<description>New Zealand government establishes a short-wave radio telegraph link to Apia.</description>
+		</event>
+		<event>
+			<year>1927</year>
+			<category>telegraph</category>
+			<network>easternextension</network>
+			<network>cableandwireless</network>
+			<description>After seeking assistance from the British Government, negotiations result in Eastern Extension being effectively absorbed into a new entity known as Cable &amp; Wireless.</description>
+		</event>
+		<event>
+			<year>1927</year>
+			<category>telephone</category>
+			<network>PandT</network>
+			<description>Trans-atlantic telephone service becomes available.</description>
+		</event>
+		<event>
+			<year>1930</year>
+			<category>telephone</category>
+			<network>PandT</network>
+			<description>All main centres of New Zealand are connected to the national telephone network.</description>
+		</event>
+		<event>
+			<year>1930</year>
+			<month>11</month>
+			<day>25</day>
+			<category>telephone</category>
+			<network>PandT</network>
+			<description>Radio telephone service linking the public telephone systems of Australia and New Zealand is created by Amalgamated Wireless Australasia.</description>
+			<cite href="http://www.caslon.com.au/austelecomsprofile1.htm">Caslon Analytics telecommunications history page</cite>
+		</event>
+		<event>
+			<year>1930</year>
+			<category>radio</category>
+			<network>radio</network>
+			<description>New Zealand government extends its short-wave radio telegraph link to Rarotonga.</description>
+		</event>
+		<event>
+			<year>1931</year>
+			<month>7</month>
+			<category>telephone</category>
+			<network>PandT</network>
+			<description>Amalgamated Wireless Australasia expands its radio telephone network to the United Kingdom.</description>
+			<cite href="http://www.caslon.com.au/austelecomsprofile1.htm">Caslon Analytics telecommunications history page</cite>
+		</event>
+		<event>
+			<year>1932</year>
+			<category>telegraph</category>
+			<network>cableandwireless</network>
+			<description>Eastern Extension re-routes its Titahi Bay telegraph cable to Muriwai Beach.</description>
+		</event>
+		<event>
+			<year>1933</year>
+			<category>telegraph</category>
+			<network>cableandwireless</network>
+			<description>Eastern Extension closes its offices in Wellington.</description>
+		</event>
+		<event>
+			<year>1938</year>
+			<category>telephone</category>
+			<network>PandT</network>
+			<description>Multi-coin slot telephones capable of local and toll calls are installed in Christchurch.</description>
+		</event>
+		<event>
+			<year>1942</year>
+			<category>radio</category>
+			<network>radio</network>
+			<description>First high-speed radio telegraph service to the United States.</description>
+		</event>
+		<event>
+			<year>1945</year>
+			<network>PandT</network>
+			<network>cableandwireless</network>
+			<network>pacificcable</network>
+			<description>The New Zealand Government sign an agreement to take over responsibility for external communications at the Commonwealth Telecommunications Conference in London. The New Zealand Post and Telegraph Department becomes responsible for all telecommunications services.</description>
+		</event>
+		<event>
+			<year>1947</year>
+			<category>radio telephoto</category>
+			<description>Radiophoto service between New Zealand, Australia and England opened.</description>
+		</event>
+		<event>
+			<year>1952</year>
+			<category>radio telegraph</category>
+			<description>Radio-telegraph services to London opened.</description>
+		</event>
+		<event>
+			<year>1954</year>
+			<category>radio telegraph</category>
+			<description>Radio-telegraph services to Sydney opened.</description>
+		</event>
+		<event>
+			<year>1959</year>
+			<category>telephone</category>
+			<network>PandT</network>
+			<network>NZPO</network>
+			<description>The New Zealand Post and Telegraph Department is renamed to the New Zealand Post Office (N.Z.P.O.)</description>
+		</event>
+		<event>
+			<year>1959</year>
+			<category>telephone</category>
+			<network>NZPO</network>
+			<description>The NZPO establishes a "telecommunications motorway" between Wellington and Auckland carrying 600 circuits.</description>
+		</event>
+		<event>
+			<year>1959</year>
+			<category>telegraph</category>
+			<description>Radio-telegraph services to Vancouver-Montreal opened.</description>
+		</event>
+		<event>
+			<year>1960</year>
+			<category>telephone</category>
+			<network>NZPO</network>
+			<description>Large-capacity toll link between Auckland and Wellington established using coaxial cable and microwave links.</description>
+		</event>
+		<event>
+			<year>1960</year>
+			<category>radio</category>
+			<network>radio</network>
+			<description>New Zealand's first official television transmission begins.</description>
+		</event>
+		<event>
+			<year>1962</year>
+			<category>telephone</category>
+			<network>compac</network>
+			<description>COMPAC, the Commonwealth Pacific Telephone Cable laid between Sydney, Auckland and Suva.</description>
+		</event>
+		<event>
+			<year>1962</year>
+			<category>radio</category>
+			<network>radio</network>
+			<description>The New Zealand Broadcasting Corporation establishes Radio New Zealand.</description>
+		</event>
+		<event>
+			<year>1963</year>
+			<category>telephone</category>
+			<network>compac</network>
+			<description>The COMPAC undersea cable is completed to Vancouver via Hawaii, providing high-quality international service between the public telephone systems of New Zealand, North America and Europe.</description>
+		</event>
+		<event>
+			<year>1963</year>
+			<category>telegraph</category>
+			<network>NZPO</network>
+			<description>The last morse code telegraphy services in New Zealand are shut down.</description>
+		</event>
+		<event>
+			<year>1970</year>
+			<category>data</category>
+			<network>NZPO</network>
+			<description>The NZPO begins offering its Datel (data/telephony) service over dedicated lines at 2400bps.</description>
+		</event>
+		<event>
+			<year>1971</year>
+			<month>7</month>
+			<day>17</day>
+			<network>NZPO</network>
+			<description>New Zealand's first satellite earth station opens at Warkworth, providing international phone and television services via the Intelsat III and later Intelsat IV satellites. A tower next to the control building connects the station to the NZPO building on Airdale Street via a new network of 7GHz microwave links. The facility boasts redundant systems, no-break power and the latest television standards conversion equipment.</description>
+			<img src="WarkworthStation.jpg"/>
+			<cite href="http://www.ipenz.org.nz/ipenz/publications/engineering-NZ/volume26-1971/default.cfm">‘New Zealand satellite earth station,’ New Zealand Engineering, Vol.26:5 (15 May 1971), pp.122-27</cite>
+			<cite href="http://www.ipenz.org.nz/heritage/itemdetail.cfm?itemid=2341">'Warkworth Satellite Earth Station', Engineering Heritage NZ, IPENZ</cite>
+		</event>
+		<!--<event>
+			<year>1973</year>
+			<network>vuw</network>
+			<network>massey</network>
+			<network>au</network>
+			<network>waikato</network>
+			<description>New Zealand Universities are equipped with Burroughs B6700 Systems.</description>
+			<cite href="http://homepages.mcs.vuw.ac.nz/~hine/jh/Papers/Networks/NZnets87.html">John H. Hine, "Research Networks in New Zealand", Victoria Univ., Wellington, 1997, § 6.1</cite>
+		</event>-->
+		<event>
+			<year>1975</year>
+			<network>vuw</network>
+			<description>Massey and Victoria experiment with a network connection - named Kiwinet. The network uses a pair of synchronous modems operating at 4800bps.</description>
+		</event>
+		<event>
+			<year>1975</year>
+			<category>radio</category>
+			<network>radio</network>
+			<description>The New Zealand Broadcasting Corporation is replaced by Television One, Television Two and Radio New Zealand.</description>
+		</event>
+		<event>
+			<year>1976</year>
+			<category>mainframe</category>
+			<description>Waikato's Department of Computer Science acquire a brand new DEC PDP-11/70 at a cost of $548,000, with "absolutely no ability to pay the bill".</description>
+			<cite href="http://www.cs.waikato.ac.nz/department/history.html">The University of Waikato Department of Computer Science History</cite>
+		</event>
+		<event>
+			<year>1976</year>
+			<month>3</month>
+			<network>NZPO</network>
+			<description>Tasman 1 cable connecting Auckland to Sydney laid by the NZPO and Australia's Overseas Telecommunications Commission.</description>
+		</event>
+		<event>
+			<year>1976</year>
+			<month>10</month>
+			<network>vuw</network>
+			<network>massey</network>
+			<description>VICNET is created, a packet switched network using the X.25 standard. The goal of the project was to link machines on the Victoria University campus with Massey's B6700. VICNET acheived some success on Victoria's campus but the connection to Massey was never made.</description>
+			<cite href="http://homepages.mcs.vuw.ac.nz/~hine/jh/Papers/Networks/NZnets87.html">John H. Hine, "Research Networks in New Zealand", Victoria Univ., Wellington, 1997, § 6.1</cite>
+		</event>
+		<event>
+			<year>1977</year>
+			<network>dsirnet</network>
+			<description>DSIRnet established using modified CSIRONET (Australia) protocols.</description>
+		</event>
+		<event>
+			<year>1979</year>
+			<category>telephone</category>
+			<network>NZPO</network>
+			<description>A link through the Intelsat IV satellite enables international dialling from New Zealand.</description>
+		</event>
+		<event>
+			<year>1979</year>
+			<description>Intelsat circuits leased to Inmarsat give New Zealand access to Tymnet and Telenet, two North American data networks.</description>
+		</event>
+		<event>
+			<year>1980</year>
+			<category>radio</category>
+			<network>radio</network>
+			<description>TV1 and TV2 become the Broadcasting Corporation of New Zealand (BCNZ)</description>
+		</event>
+		<event>
+			<year>1981</year>
+			<description>Development of the Poly and Aamber Pegasus, New Zealand's only indigenous home computer systems.</description>
+			<longdesc>The Poly (named after Wellington Polytech) was marketed on the strength of its colour screen and proprietary networking system. The Pegasus was marketed on the strength of its support of multiple computer languages and low price. A network version of the Pegasus provided connectivity to a 6809-based server (SWTPC-6809). Both systems (particularly their networking versions) attempted to address the Government's computers in schools initiative, which never produced the hoped-for large orders for these machines.</longdesc>
+		</event>
+		<event>
+			<year>1982</year>
+			<category>telephone</category>
+			<network>anzcan</network>
+			<description>Cable operations on ANZCAN begin.</description>
+			<img src="anzcan.jpg"/>
+			<cite href="http://atlantic-cable.com/Cables/1984ANZCAN/index.htm">Bill Burns, History of the Atlantic Cable &amp; Undersea Communications, Last updated 7-Jun-11</cite>
+		</event>
+		<event>
+			<year>1983</year>
+			<network>NZPO</network>
+			<description>The NZPO begins trialing a satellite based X.25 network (Pacnet)</description>
+		</event>
+		<event>
+			<year>1983</year>
+			<category>telephone</category>
+			<network>NZPO</network>
+			<description>The NZPO installs New Zealand's first fibre optic cable carrying several hundred telephone circuits 14km between Wellington and Lower Hutt.</description>
+		</event>
+		<event>
+			<year>1984</year>
+			<network>vuw</network>
+			<description>Victoria University establishes campus network based on IBM's RSCS protocol.</description>
+			<cite href="http://homepages.mcs.vuw.ac.nz/~hine/jh/Papers/Networks/NZnets87.html">John H. Hine, "Research Networks in New Zealand", Victoria Univ., Wellington, 1997, § 6.1</cite>
+		</event>
+		<event>
+			<year>1984</year>
+			<category>telephone</category>
+			<network>compac</network>
+			<description>The COMPAC network is retired. The Auckland - Fiji cable is rerouted and used in ANZCAN, other cables are either used for scientific research or retired.</description>
+			<cite href="http://atlantic-cable.com/Cables/1984ANZCAN/index.htm">Bill Burns, History of the Atlantic Cable &amp; Undersea Communications, Last updated 7-Jun-11</cite>
+		</event>
+		<event>
+			<year>1984</year>
+			<category>telephone</category>
+			<network>anzcan</network>
+			<description>The ANZCAN telephone network is completed.</description>
+			<cite href="http://atlantic-cable.com/Cables/1984ANZCAN/index.htm">Bill Burns, History of the Atlantic Cable &amp; Undersea Communications, Last updated 7-Jun-11</cite>
+		</event>
+		<event>
+			<year>1984</year>
+			<category>mobile</category>
+			<description>The bureaufax service starts.</description>
+		</event>
+		<event>
+			<year>1984</year>
+			<category>mainframe</category>
+			<network>NZPO</network>
+			<network>dsirnet</network>
+			<description>DSIR's Applied Maths Division access the Australian CSIRO CYBER 205 supercomputer, for finite element modelling of the Maui gas field. Access is initially via the Post Office OASIS Australia link, then via the N.Z.P.O.'s Pacnet network.</description>
+		</event>
+		<event>
+			<year>1984</year>
+			<description>The first eftpos machines appear in New Zealand.</description>
+		</event>
+		<event>
+			<year>1984</year>
+			<month>8</month>
+			<network>NZPO</network>
+			<description>The N.Z.P.O. makes its Pacnet service commercially available.</description>
+		</event>
+		<event>
+			<year>1984</year>
+			<month>11</month>
+			<description>First Wellington to Auckland link using digital co-axial cable and microwave technology.</description>
+		</event>
+		<event>
+			<year>1984</year>
+			<network>NZPO</network>
+			<description>Computerised Stored Program Controlled (SPC) exchanges are installed in Auckland after a 20% increase in toll traffic.</description>
+		</event>
+		<event>
+			<year>1984</year>
+			<network>NZPO</network>
+			<description>The 100' (30m) "Warkworth 2" satellite dish is built at Warkworth.</description>
+			<img src="30m-Warkworth.jpg"/>
+		</event>
+		<event>
+			<year>1985</year>
+			<network>vuw</network>
+			<network>au</network>
+			<description>Auckland University connects to Victoria University.</description>
+			<longdesc>A leased line connects three Auckland University Computing Centre machines to Victoria's campus network using the 4800bps modems bought for the 1975 Kiwinet project.</longdesc>
+			<cite href="http://homepages.mcs.vuw.ac.nz/~hine/jh/Papers/Networks/NZnets87.html">John H. Hine, "Research Networks in New Zealand", Victoria Univ., Wellington, 1997, § 6.1</cite>
+		</event>
+		<event>
+			<year>1985</year>
+			<date>April 1</date>
+			<month>4</month>
+			<network>dsirnet</network>
+			<description>New DSIR Division of Information Technology (DIT) officially comes into existence.</description>
+			<longdesc>New DSIR Division of Information Technology (DIT) officially comes into existence. The Director is Peter Ellis. "Most of CRS now belong to either the Network Group, with Frank March as the group leader, or the Software Development Group led by Peter Whimp."</longdesc>
+		</event>
+		<event>
+			<year>1985</year>
+			<network>NZPO</network>
+			<description>Canterbury University Computer Services Centre establishes a connection from its Prime 750 computer to Pacnet at 10kbit/sec.</description>
+		</event>
+		<event>
+			<year>1985</year>
+			<description>John Houlker at Waikato University has discussions about connecting to the Internet backbone with CSnet founder Larry Landweber at the University of Wisconsin, a key node on the NSFnet backbone.</description>
+		</event>
+		<event>
+			<year>1986</year>
+			<description>Waikato University connects to the US internet backbone through CSnet and takes responsibility for the .nz country code.</description>
+		</event>
+		<event>
+			<year>1986</year>
+			<network>NZPO</network>
+			<description>The NZPO begins its Starnet electronic mail service, enabling users to send and recieve messages through computers connected to Pacnet.</description>
+		</event>
+		<event>
+			<year>1986</year>
+			<network>vuw</network>
+			<description>Canterbury University connects its new computer to universities in Wellington, Canada, Melbourne and Amsterdam.</description>
+			<longdesc>Canterbury University’s Computer Science Department spends its furniture budget on a DEC VAX 750, named ‘Cantuar’. The system connects to the University of Waterloo in Canada, Victoria University in Wellington, Melbourne University and the Mathematical Centre in Amsterdam.</longdesc>
+		</event>
+		<event>
+			<year>1986</year>
+			<month>2</month>
+			<network>vuw</network>
+			<description>Victoria University becomes a node in the Australian SUN-III network.</description>
+		</event>
+		<event>
+			<year>1986</year>
+			<month>2</month>
+			<network>dsirnet</network>
+			<network>vuw</network>
+			<description>Victoria University connects to the DSIR and Ministry of Agriculture and Fisheries (MAF) networks.</description>
+		</event>
+		<event>
+			<year>1986</year>
+			<network>NZPO</network>
+			<network>citynet</network>
+			<description>CityNet is created.</description>
+			<longdesc>CityNet is created, connecting IBM and DEC mainframes within the Wellington City Council using Telecom's Pacnet service. An email gateway is established with Victoria University.</longdesc>
+		</event>
+		<event>
+			<year>1987</year>
+			<month>4</month>
+			<day>1</day>
+			<network>NZPO</network>
+			<network>oldtelecom</network>
+			<description>The New Zealand Post Office (NZPO) is replaced by three state-owned enterprises; NZ Post, Postbank and Telecom Corporation.</description>
+			<cite href="http://www.TeAra.govt.nz/en/telecommunications/6">A. C. Wilson. 'Telecommunications - Telecom', Te Ara - the Encyclopedia of New Zealand, updated 13-Apr-10</cite>
+		</event>
+		<event>
+			<year>1987</year>
+			<description>Three second level domains are created within New Zealand, .ac.nz, .govt.nz and .co.nz</description>
+		</event>
+		<event>
+			<year>1987</year>
+			<network>spearnet</network>
+			<description>SPEARNET (South Pacific Educational and Research Network) links all the universities in New Zealand using Telecom's Pacnet service. The use of the Coloured Book Protocols gives the universities access to the JANET and SPEARNET networks in Australia.</description>
+		</event>
+		<event>
+			<year>1987</year>
+			<network>vuw</network>
+			<description>Victoria University establishes an electronic mail gateway to SPEARNET, DSIRnet, University of Calgary and Melbourne University.</description>
+		</event>
+		<event>
+			<year>1987</year>
+			<network>025</network>
+			<description>Telecom launches the 025 mobile, and CDPD mobile data network.</description>
+		</event>
+		<event>
+			<year>1987</year>
+			<network>dsirnet</network>
+			<network>vuw</network>
+			<description>DSIRnet establishes a mail gateway to Victoria University, allowing DSIRnet users to exchange electronic mail with other researchers in New Zealand.</description>
+			<cite href="http://homepages.mcs.vuw.ac.nz/~hine/jh/Papers/Networks/NZnets87.html">John H. Hine, "Research Networks in New Zealand", Victoria Univ., Wellington, 1997, § 6.3</cite>
+		</event>
+		<event>
+			<year>1988</year>
+			<network>dsirnet</network>
+			<description>Universities and DSIR request Class B addresses -- in the days when all you needed was to show that you would probably have more than 256 hosts within three years.</description>
+		</event>
+		<event>
+			<year>1988</year>
+			<month>6</month>
+			<network>nzrail</network>
+			<description>The New Zealand Railways Corporation electrifies 411km of the North Island Main Trunk railway line. As part of the project, its old copper wire communications system from Auckland to Wellington is replaced with a new fibre optic cable system.</description>
+		</event>
+		<event>
+			<year>1989</year>
+			<month>4</month>
+			<network>waikato</network>
+			<description>PACCOM (later renamed to NZGate) begins providing internet access to Waikato University via an analog 9600bps analog cable link to Hawaii. 9600bps X.25 connections to NZGate are provided by Pacnet.</description>
+		</event>
+		<event>
+			<day>19</day>
+			<month>7</month>
+			<year>1989</year>
+			<network>kiwicable</network>
+			<description>Kiwi Cable is started by Tony Goodman who begins rolling out coaxial cable on the Kapiti coast </description>
+			<cite href="http://www.ipenz.org.nz/ipenz/publications/engineering-NZ/volume52-1997/1997-09-sep/features/f1.htm">Wellington Wired by Peter King, New Zealand Engineering, Sep-1997</cite>
+		</event>
+		<event>
+			<year>1989</year>
+			<month>11</month>
+			<description>Link to WCC replacing UUCP link.</description>
+		</event>
+		<event>
+			<year>1989</year>
+			<month>11</month>
+			<network>actrix</network>
+			<description>Actrix started, Actrix links via UUCP to Victoria University Computer Science for email/news.</description>
+		</event>
+		<event>
+			<year>1989</year>
+			<network>compuserve</network>
+			<description>Compuserve updates its proprietary e-mail service to allow communication with internet email addresses.</description>
+		</event>
+		<event>
+			<year>1989</year>
+			<network>vuw</network>
+			<description>Victoria University connects to the internet, allowing other agencies to connect if the hardware costs are covered. No traffic charging is in place. Most connections are via analog leased lines.</description>
+		</event>
+		<event>
+			<year>1990</year>
+			<month>4</month>
+			<network>spearnet</network>
+			<network>waikato</network>
+			<network>vuw</network>
+			<description>The Kawaihiko IP network replaces SPEARNET, connecting Waikato, Victoria and Canterbury Universities in a triangle topology with many other universities connecting to it using links provided by Telecom. Kawaihiko pioneered traffic measurement as a tool for network management and cost recovery.</description>
+		</event>
+		<event>
+			<year>1990</year>
+			<month>6</month>
+			<day>14</day>
+			<network>oldtelecom</network>
+			<network>telecom</network>
+			<description>Telecom is sold.</description>
+			<longdesc>Telecom is sold for $4,250 million to a consortium consisting of two US companies (Ameritech and Bell Atlantic) and two New Zealand partners (Fay Richwhite Holdings and Freightways Holdings). Conditions of the sale included retention of free local calling, nationwide rentals and price increases tied in to the Cost Price Index.</longdesc>
+			<cite href="http://www.TeAra.govt.nz/en/telecommunications/6">A. C. Wilson. 'Telecommunications - Telecom', Te Ara - the Encyclopedia of New Zealand, updated 13-Apr-10</cite>
+		</event>
+		<event>
+			<year>1990</year>
+			<month>9</month>
+			<day>28</day>
+			<network>nzrail</network>
+			<network>clear</network>
+			<description>The New Zealand Railways Corporation sells its fibre optic system along the North Island Main Trunk railway line to The Alternative Communications Company.</description>
+			<cite href="http://www.treasury.govt.nz/publications/informationreleases/rail/tollholdings/hoa-tranzrail.pdf">Agreement for sale and purchase of rail network, p.37 § 19</cite>
+		</event>
+		<event>
+			<year>1990</year>
+			<month>11</month>
+			<network>waikato</network>
+			<description>NZGate upgrades its analog cable link to Hawaii to 14.4Kbps</description>
+		</event>
+		<event>
+			<year>1991</year>
+			<month>3</month>
+			<network>actrix</network>
+			<description>Actrix on analogue IP link to Victoria University, but access restricted to Victoria University network and Waikato NNTP servers.</description>
+		</event>
+		<event>
+			<year>1990</year>
+			<month>11</month>
+			<day>14</day>
+			<network>clear</network>
+			<description>The Alternate Telecommunications Company Limited changes its name to Clear Communications Limited.</description>
+			<img src="clear.png"/>
+			<cite href="http://www.business.govt.nz/companies/app/ui/pages/companies/481505/3670809/entityFilingRequirement">Notice of Special Resolution - The Alternate Telecommunications Company Limited, 15-Nov-90</cite>
+		</event>
+		<event>
+			<year>1991</year>
+			<month>7</month>
+			<network>waikato</network>
+			<network>vuw</network>
+			<description>Victoria University to Waikato University link is upgraded to 48Kbps.</description>
+		</event>
+		<event>
+			<year>1991</year>
+			<description>98% of shares of Telecom are sold to Bell Atlantic and Ameritech.</description>
+		</event>
+		<event>
+			<year>1991</year>
+			<network>citynet</network>
+			<description>CityNet offers free dial up access to their internet connected UNIX system at 2400bps in Wellington. You could dial in as often as you liked but would be cut off after 3 hours. In the evenings it could take hours of dialing to get through.</description>
+		</event>
+		<event>
+			<year>1991</year>
+			<description>OSI/CLNS configured on Victoria University campus routers for testing.</description>
+		</event>
+		<event>
+			<year>1992</year>
+			<month>1</month>
+			<network>actrix</network>
+			<description>Access restrictions removed from Actrix analogue IP link.</description>
+		</event>
+		<event>
+			<year>1992</year>
+			<month>2</month>
+			<description>WCC link to 48k</description>
+		</event>
+		<event>
+			<year>1992</year>
+			<month>3</month>
+			<network>telecom</network>
+			<network>clear</network>
+			<network>tasman</network>
+			<description>The NZ$200 million fibre-optic Tasman 2 cable between Australia and New Zealand is built.</description>
+		</event>
+		<event>
+			<year>1992</year>
+			<month>7</month>
+			<day>1</day>
+			<network>dsirnet</network>
+			<network>crinet</network>
+			<description>The DSIR is dissolved into independent Crown Research Institutes. The DSIR Network becomes CRInet. The network is managed by a group in the new Industrial Research Ltd (IRL) CRI.</description>
+		</event>
+		<event>
+			<year>1992</year>
+			<month>9</month>
+			<description>NZGate replaces its 14.4Kbps analog cable to Hawaii with a 64Kbps satellite link between Warkworth and NASA Ames.</description>
+		</event>
+		<event>
+			<year>1992</year>
+			<month>12</month>
+			<network>vuw</network>
+			<network>vuw</network>
+			<description>Waikato University starts charging for international traffic. With traffic in excess of 1GB/month and growing exponentially, Victoria University decides to start charging for traffic, forming VUW Internetworking Group.</description>
+		</event>
+		<event>
+			<year>1992</year>
+			<network>iconz</network>
+			<description>ICONZ is founded.</description>
+		</event>
+		<event>
+			<year>1992</year>
+			<network>clear</network>
+			<network>telecom</network>
+			<description>Clear and Telecom reach a full agreement on local service interconnection.</description>
+		</event>
+		<event>
+			<year>1992</year>
+			<network>telecom</network>
+			<description>Telecom introduces No.7 signaling, Centrex, private networking and enhanced ISDN services.</description>
+		</event>
+		<event>
+			<year>1992</year>
+			<network>citynet</network>
+			<description>Wellington City Council upgrades its internet link to 48kbit/sec.</description>
+		</event>
+		<event>
+			<year>1992</year>
+			<network>actrix</network>
+			<network>vuw</network>
+			<description>Actrix begins handling the commercial side of Victoria University's internet services.</description>
+		</event>
+		<event>
+			<year>1993</year>
+			<network>pacrim</network>
+			<description>Pacrim East cable Auckland to Hawaii in service. At 1120Mbit/s it can handle around 80,000 phone calls.</description>
+		</event>
+		<event>
+			<year>1993</year>
+			<category>mobile</category>
+			<network>bellsouth</network>
+			<description>Bellsouth starts New Zealand's first GSM cellular network.</description>
+		</event>
+		<event>
+			<year>1993</year>
+			<month>7</month>
+			<network>kcbbs</network>
+			<network>au</network>
+			<description>KCBBS becomes Internet connected via a 48 Kbps Metropolitan Digital Data Service to the Auckland University Computer Center.</description>
+		</event>
+		<event>
+			<year>1994</year>
+			<month>3</month>
+			<network>waikato</network>
+			<description>NZGate upgrades its satellite link to NASA Ames to 256Kbps.</description>
+		</event>
+		<event>
+			<year>1994</year>
+			<month>3</month>
+			<description>Steering group meets at Victoria University to set up ISOCNZ (now InternetNZ)</description>
+		</event>
+		<event>
+			<year>1994</year>
+			<month>3</month>
+			<network>citynet</network>
+			<description>@punnet, an internet magazine, is published in Wellington, based on articles dragged from gopherspace onto a Citynet-connected Mac SE.</description>
+		</event>
+		<event>
+			<year>1994</year>
+			<month>6</month>
+			<network>telecom</network>
+			<description>In a joint venture with Taranaki Polytechnic, Telecom launches a cut-down Internet access product for schools and other special interest groups, called NZ Online.</description>
+			<cite href="http://www.unlimited.net.nz/unlimited.nsf/0/79B2526E25373F9DCC256942001D8961?OpenDocument">Telecom’s Xtra agony, Unlimited, 29-Jan-01</cite>
+		</event>
+		<event>
+			<year>1994</year>
+			<month>4</month>
+			<network>waikato</network>
+			<description>NASA stops funding for the international link to Waikato University. Waikato’s controversial volume charging approach ensures there is sufficient funding to cover costs including bandwidth upgrades.</description>
+		</event>
+		<event>
+			<year>1994</year>
+			<month>7</month>
+			<network>waikato</network>
+			<description>NZGate upgrades its satellite link to NASA Ames to 512Kbps.</description>
+		</event>
+		<event>
+			<year>1994</year>
+			<month>7</month>
+			<description>Government ICIT Standards Working Group recommends that the Government Open Systems Interconnect Profile (GOSIP), multiple telephone-book sized volumes mandating the use of ISO/OSI protocols by Government agencies, be replaced by a single-page public sector guideline.</description>
+		</event>
+		<event>
+			<year>1994</year>
+			<month>9</month>
+			<network>clear</network>
+			<description>Clear begins providing 0800 freephone services. Prior to this, its freephone service had used the 0508 prefix.</description>
+		</event>
+		<event>
+			<year>1994</year>
+			<month>10</month>
+			<network>waikato</network>
+			<description>Waikato starts labelling international access as NZGate rather than PACCOM.</description>
+		</event>
+		<event>
+			<year>1994</year>
+			<network>ihug</network>
+			<description>ihug is started by brothers Nick Wood and Tim Wood operating out of a garage.</description>
+		</event>
+		<event>
+			<year>1994</year>
+			<network>vuw</network>
+			<description>CTL Comet V-FAST (28kbps) modems used on analogue leased line service. CTL agrees to design and build a rack-mountable version; with the first example installed at VUW.</description>
+		</event>
+		<event>
+			<year>1995</year>
+			<month>1</month>
+			<network>pacrim</network>
+			<description>Pacrim West cable Sydney to Guam in service.</description>
+		</event>
+		<event>
+			<year>1995</year>
+			<month>4</month>
+			<network>vuw</network>
+			<network>netlink</network>
+			<description>NetLink is formed as a division of Victoria Link, a VUW-owned company. NetLink takes over Victoria's internetworking operations.</description>
+		</event>
+		<event>
+			<year>1995</year>
+			<month>5</month>
+			<network>waikato</network>
+			<description>NZGate upgrades its satellite link to NASA Ames to 1Mbps.</description>
+		</event>
+		<event>
+			<year>1995</year>
+			<month>8</month>
+			<network>netlink</network>
+			<network>au</network>
+			<description>NetLink takes over management of University of Auckland Internet services.</description>
+		</event>
+		<event>
+			<month>9</month>
+			<year>1995</year>
+			<network>compuserve</network>
+			<description>CompuServe and Fujitsu release WorldsAway, an online graphical "virtual chat" available to CompuServe's customers.</description>
+		</event>
+		<event>
+			<year>1995</year>
+			<month>10</month>
+			<network>netlink</network>
+			<network>telecom</network>
+			<description>Don Stokes, Richard Naylor and Julian Meadow set up VolcanoCam, a webcam pointed at Mt. Ruapehu. The camera uses a dial-up modem connected to NetLink via Telecom's cellular network. The site achieves three million hits in three months.</description>
+			<img src="volcanocam.jpg"/>
+			<cite href="http://www.daedalus.co.nz/don/ruapehu/index.html">An Internet Camera: VolcanoCam, Don Stokes, Jun-1996</cite>
+		</event>
+		<event>
+			<year>1995</year>
+			<month>11</month>
+			<network>ihug</network>
+			<description>Ihug becomes the first ISP in New Zealand to offer flat rate dial-up internet access.</description>
+			<img src="ihug.gif"/>
+		</event>
+		<event>
+			<year>1995</year>
+			<month>11</month>
+			<network>voyager</network>
+			<description>Voyager starts up, offering $10/hr, and also provide 0800 (nationwide toll-free) access to the internet.</description>
+		</event>
+		<event>
+			<year>1995</year>
+			<month>11</month>
+			<network>citynet</network>
+			<description>CityNet stops accepting new users.</description>
+		</event>
+		<event>
+			<year>1995</year>
+			<network>citylink</network>
+			<description>CityLink is formed as an initiative of the Wellington City Council.</description>
+		</event>
+		<event>
+			<year>1995</year>
+			<network>telecom</network>
+			<description>Telecoms wholly-owned subsidiary, First Media trials a hybrid fiber-coaxial (HFC) cable television network in Auckland. Considered a success, the trial was extended and later expanded to include Wellington.</description>
+		</event>
+		<event>
+			<year>1995</year>
+			<network>telecom</network>
+			<description>Telecom forms Telecom Online Services to research and trial internet services.</description>
+		</event>
+		<event>
+			<year>1995</year>
+			<network>compass</network>
+			<description>Compass Communications is established as a provider of enhanced fax services to the New Zealand business market.</description>
+			<cite href="http://www.business.govt.nz/companies/app/ui/pages/companies/1084657/11041672/entityFilingRequirement">Prospectus and Investment Statement, Compass Communications Group Limited, 7-Nov-00</cite>
+		</event>
+		<event>
+			<year>1995</year>
+			<network>kiwicable</network>
+			<description>Kiwi Cable secures an agreement with power companies Energy Direct and Capital Power to use their power poles to support a cable network.</description>
+			<cite href="http://www.ipenz.org.nz/ipenz/publications/engineering-NZ/volume52-1997/1997-09-sep/features/f1.htm">Wellington Wired by Peter King, New Zealand Engineering, Sep-1997</cite>
+		</event>
+		<event>
+			<year>1996</year>
+			<month>1</month>
+			<network>waikato</network>
+			<description>NZGate stops reselling international internet bandwidth from Netway.</description>
+		</event>
+		<event>
+			<day>19</day>
+			<month>2</month>
+			<year>1996</year>
+			<network>kiwicable</network>
+			<network>saturn</network>
+			<description>Kiwi Cable is renamed to Saturn Communications Limited.</description>
+		</event>
+		<event>
+			<year>1996</year>
+			<month>3</month>
+			<day>8</day>
+			<network>telecom</network>
+			<description>Telecom expands First Media to an additional 70,000 homes in Auckland and Wellington. The roll out in Auckland will cover Central Auckland, parts of the North Shore and will extend cable in parts of East Tamaki and Howick. Cable is currently being laid in East Tamaki. A trial in Pakuranga and New Lynn will continue for research purposes. In Wellington the roll out will extend to Central Wellington, Central Lower Hutt and areas of the Western Hills.</description>
+			<cite href="http://www.telecom-media.co.nz/releases_detail.asp?id=1776&amp;page=2&amp;pagesize=10&amp;filtertext=First+Media&amp;m1=1&amp;y1=1996&amp;m2=12&amp;y2=1998&amp;filter=filter">Telecom Expands Broadband Network, Telecom NZ, 8-Mar-96</cite>
+		</event>
+		<event>
+			<year>1996</year>
+			<month>5</month>
+			<network>telecom</network>
+			<description>Telecom Online Services becomes Xtra, providing dial-up internet access nationwide.</description>
+		</event>
+		<event>
+			<year>1996</year>
+			<month>5</month>
+			<network>clear</network>
+			<description>Clear begins offering services over ISDN.</description>
+		</event>
+		<event>
+			<year>1996</year>
+			<month>5</month>
+			<network>actrix</network>
+			<description>Actrix introduces a NZ$5/month "community service" which gives users email through the non-profit PlaNet New Zealand network.</description>
+		</event>
+		<event>
+			<year>1996</year>
+			<month>7</month>
+			<day>5</day>
+			<network>telecom</network>
+			<description>Telecom establishes a telephone exchange in the United States for international traffic.</description>
+		</event>
+		<event>
+			<year>1996</year>
+			<month>9</month>
+			<day>24</day>
+			<network>telecom</network>
+			<description>First Media starts connecting paying customers in the East Tamaki Peninsula, Auckland and Whitby in Wellington, with Central Lower Hutt soon to follow. First Media’s initial programme line up consists of eight new and three existing ‘free to air’ television channels.</description>
+			<cite href="http://www.telecom-media.co.nz/releases_detail.asp?id=1868&amp;page=2&amp;pagesize=10&amp;filtertext=first+media&amp;m1=1&amp;y1=1996&amp;m2=11&amp;y2=2012&amp;filter=filter">First in Town, Telecom NZ, 1-Oct-1996</cite>
+		</event>
+		<event>
+			<year>1996</year>
+			<month>10</month>
+			<network>netlink</network>
+			<description>NetLink sponsors General Election web coverage.</description>
+		</event>
+		<event>
+			<year>1996</year>
+			<month>10</month>
+			<day>29</day>
+			<network>ihug</network>
+			<description>ihug merges with Efficient Software.</description>
+		</event>
+		<event>
+			<year>1996</year>
+			<month>11</month>
+			<day>29</day>
+			<network>clear</network>
+			<description>Clear launches Clear Net.</description>
+			<img src="clearnet.gif"/>
+		</event>
+		<event>
+			<year>1996</year>
+			<network>clear</network>
+			<network>telecom</network>
+			<description>Telecom and Clear sign an interconnection agreement, where Telecom pays 1–2 cents per minute for calls from Telecom to Clear's network.</description>
+		</event>
+		<event>
+			<year>1996</year>
+			<network>citylink</network>
+			<description>CityLink starts a fibre-optic network in the Wellington CBD, stringing fibre along the overhead network used for the city trolley busses.</description>
+		</event>
+		<event>
+			<year>1996</year>
+			<network>netlink</network>
+			<description>NetLink expands, offering dial-up services in Christchurch and leased-line services in Christchurch and Dunedin.</description>
+		</event>
+		<event>
+			<year>1996</year>
+			<network>netlink</network>
+			<description>NetLink starts NetRadio, a wireless internet service. 3 antennas on a Victoria University building provide coverage to most of the Wellington CBD.</description>
+		</event>
+		<event>
+			<year>1996</year>
+			<network>citynet</network>
+			<description>CityNet is decomissioned.</description>
+		</event>
+		<event>
+			<year>1996</year>
+			<network>kiwicable</network>
+			<description>Kiwi Cable invests NZ$40 million expanding its network to pass 50,000 homes by the end of the year, working closely with power companies to install fibre on utility poles.</description>
+		</event>
+		<event>
+			<year>1996</year>
+			<network>telstra</network>
+			<description>Telstra enters the New Zealand market, focusing on corporate customers. It begins installing fibre in Auckland, Wellington and Christchurch.</description>
+		</event>
+		<event>
+			<month>1</month>
+			<year>1996</year>
+			<network>waikato</network>
+			<description>Waikato University opens up NZIX to multiple competing international ISPs.</description>
+			<cite href="http://web.archive.org/web/19990911190306/http://www.waikato.ac.nz/NZIX/">New Zealand Internet Exchange (NZIX), 11-Sep-99</cite>
+		</event>
+		<!-- citation needed <event>
+			<year>1996</year>
+			<month>11</month>
+			<network>telecom</network>
+			<description>With cable laid past 80,000 homes Telecom announces a halt to the rollout of its First Media service. First Media provides traditional channels as well as a pay-per-view service that allows subscribers to purchase movies. First Media also operates a music video channel called "The Cube" that allows subscribers to request songs.</description>
+		</event>-->
+		<event>
+			<month>1</month>
+			<year>1997</year>
+			<network>telecom</network>
+			<description>Telecom announces its national IP network, named IPNet.</description>
+		</event>
+		<event>
+			<month>7</month>
+			<year>1997</year>
+			<network>saturn</network>
+			<description>Saturn announces a new business partner, Sasktel, the state-owned telephone company of the Canadian province of Saskatchewan.</description>
+			<cite href="http://www.ipenz.org.nz/ipenz/publications/engineering-NZ/volume52-1997/1997-09-sep/features/f1.htm">Wellington Wired by Peter King, New Zealand Engineering, Sep-1997</cite>
+		</event>
+		<event>
+			<year>1997</year>
+			<month>8</month>
+			<day>1</day>
+			<network>saturn</network>
+			<description>Saturn Home Cinema is launched.</description>
+			<longdesc>Saturn Home Cinema is launched, a pay-per-view "near video on demand service" which plays movies starting at a number of overlapping times on different channels. The movies are broadcast from a 350GB Sun Calypso media server to set-top box unscramblers in subscribers' homes, similar to hotel pay-per-view systems.</longdesc>
+			<cite href="http://www.ipenz.org.nz/ipenz/publications/engineering-NZ/volume52-1997/1997-09-sep/features/f1.htm">Wellington Wired by Peter King, New Zealand Engineering, Sep-1997</cite>
+		</event>
+		<event>
+			<year>1997</year>
+			<month>9</month>
+			<network>telecom</network>
+			<description>Xtra joins NZ Herald and others as providers of Microsoft ‘Active Channels’, similar to modern RSS feeds.</description>
+		</event>
+		<event>
+			<year>1997</year>
+			<month>9</month>
+			<network>saturn</network>
+			<description>Saturn begins trialling high speed COM21 cable modems. The trial uses ATM to carry data to Wellington internet provider Actrix over its own, Clear's and Citylink's fibre.</description>
+			<cite href="http://www.ipenz.org.nz/ipenz/publications/engineering-NZ/volume52-1997/1997-09-sep/features/f1.htm">Wellington Wired by Peter King, New Zealand Engineering, Sep-1997</cite>
+		</event>
+		<event>
+			<year>1997</year>
+			<network>compass</network>
+			<network>telecom</network>
+			<description>Compass enters into an interconnection agreement with Telecom and begins offering voice services, including national and international calls and toll-free services.</description>
+			<cite href="http://www.business.govt.nz/companies/app/ui/pages/companies/1084657/11041672/entityFilingRequirement">Prospectus and Investment Statement, Compass Communications Group Limited, 7-Nov-00</cite>
+		</event>
+		<event>
+			<year>1997</year>
+			<network>compuserve</network>
+			<description>WorldsAway is sold to Inworlds.com and moves to the public internet.</description>
+		</event>
+		<event>
+			<year>1997</year>
+			<network>ihug</network>
+			<description>ihug purchases Dunedin-based ES Net.</description>
+		</event>
+		<event>
+			<month>10</month>
+			<year>1997</year>
+			<network>ihug</network>
+			<description>ihug establishes StarNet, offering wireless internet to about 1000 users in line-of-sight of the Sky Tower. Using microwave technology, ihug offers download speeds of up to 500kbit/s to each user. Since the link is one-way, the service uses a dial-up modem or ISDN connection for uploads.</description>
+			<img src="starnet.jpg"/>
+			<cite href="http://computerworld.co.nz/news.nsf/UNID/E3E463DF43D7AE63CC256FA800689008?OpenDocument&amp;pub=Computerworld">Ihug flogs off satellite service, Computer World, 15-Feb-05</cite>
+		</event>
+		<event>
+			<year>1997</year>
+			<network>netlink</network>
+			<description>NetLink is formed as a seperate company.</description>
+		</event>
+		<event>
+			<year>1997</year>
+			<network>netlink</network>
+			<description>NetRadio is deployed in Christchurch, with antennas on the roof of Hotel Grand Chancellor.</description>
+		</event>
+		<event>
+			<year>1998</year>
+			<month>2</month>
+			<network>compuserve</network>
+			<cite href="http://webcenters.netscape.compuserve.com/menu/about.jsp">About Compuserve</cite>
+			<description>America Online, Inc. (AOL) acquires 100% of CompuServe.</description>
+		</event>
+		<event>
+			<year>1998</year>
+			<month>7</month>
+			<day>31</day>
+			<network>telecom</network>
+			<description>First Media is shut down. Cable subscribers are disconnected and offered a refund on installation costs while DSL subscribers continue to receive Internet services only.</description>
+			<cite href="http://www.telecom-media.co.nz/releases_detail.asp?id=2212&amp;page=1&amp;pagesize=10&amp;filtertext=First+Media&amp;m1=1&amp;y1=1996&amp;m2=12&amp;y2=1998&amp;filter=filter">Telecom Closes First Media, Telecom NZ, 4-Jun-98</cite>
+		</event>
+		<event>
+			<year>1998</year>
+			<month>9</month>
+			<network>bellsouth</network>
+			<description>Resource consent is turned down for a cell-phone site near Devonport School. North Shore City Council planning committee's chairperson Wyn Hoadley, refers to the Resource Management Act's requirement for sustainable resource use and defines Devonport School as a community resource in that context.</description>
+			<cite href="http://www.localhistoryonline.org.nz/cgi-bin/PUI?e=0--------0-----------0-1-0-0-&amp;a=d&amp;c=supercol&amp;cl=CL2.B.BellSouth%20New%20Zealand%20Ltd&amp;d=nsnw-NNI-AAC-1426">Devonport spirit helps school win fight, New Zealand Herald, 8-Aug-98</cite>
+		</event>
+		<event>
+			<year>1998</year>
+			<month>12</month>
+			<day>1</day>
+			<network>waikato</network>
+			<description>Kawaihiko is disbanded.</description>
+			<cite href="http://web.archive.org/web/19990910233734/http://www.waikato.ac.nz/harvest/">Distributed WWW Caching in New Zealand, NZIX Cache Administrator, May-98</cite>
+		</event>
+		<event>
+			<year>1998</year>
+			<month>12</month>
+			<network>ihug</network>
+			<description>ihug introduces its "Starnet SuperSystem" satellite internet and TV service. The SuperSystem involves a set-top box with a wireless keyboard, allowing the user to "surf the web and watch TV at the same time."</description>
+			<img src="supersystem.jpg"/>
+			<cite href="http://web.archive.org/web/19990128102334/http://www.star.net.nz/latest.html">Latest News, Starnet Ltd, 8-Dec-98</cite>
+		</event>
+		<event>
+			<month>11</month>
+			<year>1998</year>
+			<network>vodafone</network>
+			<network>bellsouth</network>
+			<description>Vodafone New Zealand enters the mobile telecommunications market in November 1998 following its purchase of BellSouth New Zealand.</description>
+			<cite href="http://www3.stats.govt.nz/New_Zealand_Official_Yearbooks/1999/NZOYB_1999.html">New Zealand Official Yearbook 1999, § 11.3</cite>
+		</event>
+		<event>
+			<year>1999</year>
+			<month>6</month>
+			<day>28</day>
+			<network>telecom</network>
+			<description>Xtra launches a new broadband Internet service based on ADSL technology, called JetStream. It will initially be available to customers connected to over 30 exchanges in Auckland, Wellington Christchurch, Palmerston North and Hamilton. The cheapest option, aimed at residential customers, provides 600MB for NZ$69 per month, with traffic over 600MB charged at NZ$0.35 per megabyte.</description>
+			<cite href="http://www.telecom-media.co.nz/releases_detail.asp?id=2358&amp;page=1&amp;pagesize=10&amp;filtertext=jetstream&amp;m1=1&amp;y1=1999&amp;m2=6&amp;y2=2000&amp;filter=filter">Telecom Launches JetStream Fast Internet Service, Telecom NZ, 28-Jun-99</cite>
+		</event>
+		<event>
+			<month>6</month>
+			<year>1999</year>
+			<network>ihug</network>
+			<description>ihug rebrands its retail StarNet products as Satnet.</description>
+			<cite href="http://computerworld.co.nz/news.nsf/news/CC256CED0016AD1ECC25684C000DDD5B">Ihug scraps flat-rate for high-speed service, sets 1.8Gb limit, Computer World, 19-Nov-12</cite>
+		</event>
+		<event>
+			<day>1</day>
+			<month>7</month>
+			<year>1999</year>
+			<network>ihug</network>
+			<description>ihug begins limiting its previously umlimited StarNet/Satnet service. Customers on the service are given a 1.8Gb monthly limit and, if they exceed that in a month their daily usage will be "assessed" and any traffic over 60Mb per day will be charged at 10 cents per minute.</description>
+			<cite href="http://computerworld.co.nz/news.nsf/news/CC256CED0016AD1ECC25684C000DDD5B">Ihug scraps flat-rate for high-speed service, sets 1.8Gb limit, Computer World, 19-Nov-12</cite>
+		</event>
+		<event>
+			<day>29</day>
+			<month>7</month>
+			<year>1999</year>
+			<network>saturn</network>
+			<description>Austar United Communications Limited (AUCL) purchases Saturn</description>
+			<cite href="http://www.business.govt.nz/companies/app/ui/pages/companies/435672/14068548/entityFilingRequirement?backurl=%2Fcompanies%2Fapp%2Fui%2Fpages%2Fcompanies%2F435672%2Fdocuments%3Fstart%3D116%26limit%3D1">Annual Financial Statements, Saturn Communications Limited, 30-Jun-2000</cite>
+		</event>
+		<event>
+			<month>8</month>
+			<year>1999</year>
+			<network>telecom</network>
+			<description>Telecom introduces its 0867 access package, in order to “separate Internet traffic from traditional voice calls in order to improve the network management of Internet traffic”. Telecom charges its customers 2c/min after ten hours of free monthly access for calls to local dial-up numbers. To avoid this charge, ISPs are forced to sign an "0867 agreement" with Telecom for 0867 numbers. 0867 numbers are exempt from the interconnect termination payments regime.</description>
+		</event>
+		<event>
+			<day>20</day>
+			<month>10</month>
+			<year>1999</year>
+			<network>ihug</network>
+			<description>ihug introduces a nationwide satellite service under the Satnet brand, providing internet via the PanAmSat 2 (or 8?!?) satellite.</description>
+			<img src="satnet.gif"/>
+			<cite href="http://web.archive.org/web/20000817033847/http://www.ihug.co.nz/satnet/latest.html">Latest news, ihug, 30-May-00</cite>
+		</event>
+		<event>
+			<month>12</month>
+			<year>1999</year>
+			<network>ihug</network>
+			<description>ihug launches its digital TV service, iDTV. Broadcasting MPEG-2 video from it's microwave transmitters on the Sky Tower in Auckland using DVB-MS, up to 24 channels could be offered. Ihug director Tim Wood envisions a constant 3Mbit/sec stream into subscribers' homes, delivering content and services. "That might mean customers can subscribe, for example, to an adult channel, Bloomberg, and constant news and e-mail."</description>
+			<img src="idtv.jpg"/>
+			<cite href="http://www.nzherald.co.nz/lifestyle/news/article.cfm?c_id=6&amp;objectid=105016">Digital service widens channel choice, NZ Herald, 10-Dev-99</cite>
+		</event>
+		<event>
+			<year>1999</year>
+			<network>compass</network>
+			<description>Compass acquires Auckland Internet Exchange and begins offering internet services to its business customers.</description>
+			<cite href="http://www.business.govt.nz/companies/app/ui/pages/companies/1084657/11041672/entityFilingRequirement">Prospectus and Investment Statement, Compass Communications Group Limited, 7-Nov-00</cite>
+		</event>
+		<event>
+			<year>1999</year>
+			<network>ihug</network>
+			<description>ihug launches ihugPhone, VoIP-based toll bypass and post-paid calling card voice services.</description>
+		</event>
+		<event>
+			<day>30</day>
+			<month>3</month>
+			<year>2000</year>
+			<network>compass</network>
+			<network>telecom</network>
+			<description>Compass Communications invests NZ$1 million setting up Freenet, offering 10 hours per month of free dial-up internet access to users. Freenet gets the majority of its revenue from interconnect fees paid by Telecom. When users make a modem call from their Telecom phone line to Freenet on Compass' network, Telecom pays a fee to Compass. Several companies soon follow this model: i4free, surf4nix, Zfree and Splurge.</description>
+		</event>
+		<event>
+			<day>30</day>
+			<month>3</month>
+			<year>2000</year>
+			<network>saturn</network>
+			<description>Saturn purchases Paradise.Net.</description>
+			<cite href="http://www.business.govt.nz/companies/app/ui/pages/companies/435672/14068548/entityFilingRequirement?backurl=%2Fcompanies%2Fapp%2Fui%2Fpages%2Fcompanies%2F435672%2Fdocuments%3Fstart%3D116%26limit%3D1">Annual Financial Statements, Saturn Communications Limited, 30-Jun-2000</cite>
+		</event>
+		<event>
+			<month>4</month>
+			<year>2000</year>
+			<network>callplus</network>
+			<network>telecom</network>
+			<network>clear</network>
+			<description>CallPlus launches i4free on Clear's network, offering unlimited free internet access. Calls to i4free originate on 0867 lines so Telecom still has traffic control. But a call divert feature transfers them to Clear's network so Telecom is still faced with paying interconnect charges to Clear, who have a revenue-sharing agreement with i4free. Telecom severely restricts the number of calls routed into i4free, arguing that the high volume of calls would overwhelm its exchange on Airdale St in Auckland.</description>
+			<cite href="http://www.nzherald.co.nz/business/news/article.cfm?c_id=3&amp;objectid=131203">0867 scheme protection from traffic, NZ Herald, 8-Apr-00</cite>
+		</event>
+		<event>
+			<day>29</day>
+			<month>4</month>
+			<year>2000</year>
+			<network>telstrasaturn</network>
+			<network>saturn</network>
+			<network>telstra</network>
+			<description>Austar United Communications Limited and Telstra form a 50/50 joint venture where Saturn Communications purchases Telstra New Zealand and becomes Telsta Saturn Limited.</description>
+			<cite href="http://www.business.govt.nz/companies/app/ui/pages/companies/435672/14068548/entityFilingRequirement?backurl=%2Fcompanies%2Fapp%2Fui%2Fpages%2Fcompanies%2F435672%2Fdocuments%3Fstart%3D116%26limit%3D1">Annual Financial Statements, Saturn Communications Limited, 30-Jun-2000</cite>
+		</event>
+		<event>
+			<day>29</day>
+			<month>6</month>
+			<year>2000</year>
+			<network>telstrasaturn</network>
+			<network>netlink</network>
+			<description>Telstra Saturn, NetLink and Paradise.Net amalgamate and continue as one company under the name "Telstra Saturn Limited".</description>
+			<cite href="http://www.business.govt.nz/companies/app/ui/pages/companies/435672/14068607/entityFilingRequirement?backurl=%2Fcompanies%2Fapp%2Fui%2Fpages%2Fcompanies%2F435672%2Fdocuments%3Fstart%3D104%26limit%3D1">Board Resolution Approving Amalgamation, Telstra Saturn Limited, 29-May-2000</cite>
+		</event>
+		<event>
+			<month>9</month>
+			<year>2000</year>
+			<network>ihug</network>
+			<description>ihug rebrands its Satnet services to Ultra. For a residential internet connection, Ultra costs $59.95 for 300 hours a month, or $39.95 for 30 hours. There are no traffic charges but if you exceed your agreed time online you pay $1.50 for each extra hour.</description>
+			<cite href="http://www.nzherald.co.nz/technology/news/article.cfm?c_id=5&amp;objectid=152748">Michael Foreman: Ihug's speedy Ultra bargain broadband, NZ Herald, 26-Sep-00</cite>
+		</event>
+		<event>
+			<month>10</month>
+			<year>2000</year>
+			<network>telecom</network>
+			<network>clear</network>
+			<description>Telecom and Clear reach a new interconnection agreement, with so-called “bill-and-keep” and “callsink”
+provisions that end the main revenue stream for free ISPs on Clear's network.</description>
+		</event>
+		<event>
+			<day>31</day>
+			<month>12</month>
+			<year>2000</year>
+			<network>callplus</network>
+			<network>clear</network>
+			<description>The interconnect revenue sharing agreement between Clear and i4free expires.</description>
+			<description>Zfree stops accepting new customers but continues to provide free connections to existing users.</description>
+			<cite href="http://www.nzherald.co.nz/technology/news/article.cfm?c_id=5&amp;objectid=167518">Cash wrangle death knell for free net, NZ Herald, 6-Jan-01</cite>
+		</event>
+		<event>
+			<month>12</month>
+			<year>2000</year>
+			<network>clear</network>
+			<description>Zfree stops accepting new customers but continues to provide free connections to existing users.</description>
+			<cite href="http://www.nzherald.co.nz/technology/news/article.cfm?c_id=5&amp;objectid=167518">Cash wrangle death knell for free net, NZ Herald, 6-Jan-01</cite>
+		</event>
+		<event>
+			<month>1</month>
+			<year>2001</year>
+			<network>callplus</network>
+			<network>clear</network>
+			<description>i4free stops receiving interconnect revenue from Clear. i4free downgrades its free service, offering users unlimited internet for $14.95 per month through its new ISP, SlingShot. Customers who stay with the free service get busy signals and slower performance as modems and other resources are transferred to the paid service.</description>
+			<cite href="http://www.nzherald.co.nz/technology/news/article.cfm?c_id=5&amp;objectid=167518">Cash wrangle death knell for free net, NZ Herald, 6-Jan-01</cite>
+		</event>
+		<event>
+			<month>5</month>
+			<year>2001</year>
+			<network>compass</network>
+			<description>Freenet cuts its free internet service to 3.5 hours a month.</description>
+		</event>
+		<event>
+			<day>1</day>
+			<month>12</month>
+			<year>2001</year>
+			<network>telstrasaturn</network>
+			<network>clear</network>
+			<network>telstraclear</network>
+			<description>TelstraSaturn purchases Clear Communications Limited and changes its name to TelstraClear Limited.</description>
+			<cite href="http://www.business.govt.nz/companies/app/ui/pages/companies/435672/14068501/entityFilingRequirement?backurl=%2Fcompanies%2Fapp%2Fui%2Fpages%2Fcompanies%2F435672%2Fdocuments%3Fstart%3D78%26limit%3D1">2002 Annual Report, TelstraClear Limited, 8-Nov-2002</cite>
+		</event>
+		<event>
+			<year>2001</year>
+			<network>telecom</network>
+			<description>Telecom invests NZ$38 million in a submarine cable between New Zealand's North and South Islands.</description>
+		</event>
+		<event>
+			<year>2001</year>
+			<network>telecom</network>
+			<description>Telecom switches on its "027" CDMA mobile network.</description>
+		</event>
+		<event>
+			<month>2</month>
+			<year>2002</year>
+			<network>telecom</network>
+			<network>callplus</network>
+			<description>i4free sues Telecom for $18,162,342, claiming Telecom's June 1999 decision to force internet users to dial a "0867" prefix had severely limited growth of the company, delaying the launch of the service by nine months.</description>
+			<cite href="http://www.nzherald.co.nz/business/news/article.cfm?c_id=3&amp;objectid=940544">i4free hits Telecom with $18m call claim, NZ Herald, 22-Feb-02</cite>
+		</event>
+		<event>
+			<month>10</month>
+			<year>2002</year>
+			<network>telstraclear</network>
+			<description>Zfree, the only remaining free ISP, closes.</description>
+		</event>
+		<event>
+			<day>24</day>
+			<month>10</month>
+			<year>2002</year>
+			<network>wiredcountry</network>
+			<description>Wired country begins construction of its fibre optic network in Pukekohe, Auckland.</description>
+			<cite href="http://web.archive.org/web/20070705031754/http://www.wiredcountry.co.nz/press_09.html">Counties Power commences construction of their broadband network, Wired Country, 24-Oct-02</cite>
+		</event>
+		<event>
+			<day>8</day>
+			<month>5</month>
+			<year>2003</year>
+			<network>wiredcountry</network>
+			<description>Wired country starts offering internet services over its fibre optic cable network in Pukekohe, Auckland. The Packing Shed, Ihug and Wave Internet offer high-speed internet services over the network.</description>
+			<cite href="http://web.archive.org/web/20070705031754/http://www.wiredcountry.co.nz/press_09.html">Wired Country broadband network launches commercial operations in Franklin Region, Wired Country, 9-May-03</cite>
+		</event>
+		<event>
+			<day>21</day>
+			<month>8</month>
+			<year>2003</year>
+			<network>wiredcountry</network>
+			<description>Wired country starts offering internet services from wireless transmitters on Pukekohe Hill and at Kaipara Road in Papakura.</description>
+			<cite href="http://web.archive.org/web/20031223161044/http://www.wiredcountry.co.nz/press_17.html">Customers connect to wireless broadband in the Counties Region, Wired Country, 21-Aug-2003</cite>
+		</event>
+		<event>
+			<year>2003</year>
+			<month>7</month>
+			<day>1</day>
+			<network>ihug</network>
+			<description>ihug stops broadcasting iDTV.</description>
+			<cite href="http://web.archive.org/web/20031012111846/http://www.ihug.co.nz/idtv/index.html">ihug website, 12-Oct-2003</cite>
+		</event>
+		<event>
+			<day>22</day>
+			<month>10</month>
+			<year>2003</year>
+			<network>ihug</network>
+			<description>ihug is purchased by Australian ISP iiNet.</description>
+			<cite href="http://computerworld.co.nz/news.nsf/news/7A6B1735424EE50ACC256DC700160978">Ihug chair goes to board of new owner, Computer World, 23-Oct-03</cite>
+		</event>
+		<event>
+			<month>3</month>
+			<year>2004</year>
+			<network>telecom</network>
+			<description>Telecom introduces 256kbit/s JetStream service for residential users with a 10GB allowance for NZ$70/month.</description>
+		</event>
+		<event>
+			<year>2004</year>
+			<network>telecom</network>
+			<description>Telecom launches New Zealand's first 3G network, using EVDO technology.</description>
+		</event>
+		<event>
+			<month>2</month>
+			<year>2005</year>
+			<network>ihug</network>
+			<description>iiNet sells ihug's satellite service to Bordernet, an Australian ISP that specialises in rural and satellite-based services.</description>
+			<cite href="http://computerworld.co.nz/news.nsf/UNID/E3E463DF43D7AE63CC256FA800689008?OpenDocument&amp;pub=Computerworld">Ihug flogs off satellite service, Computer World, 15-Feb-05</cite>
+		</event>
+		<event>
+			<day>1</day>
+			<month>11</month>
+			<year>2005</year>
+			<network>compass</network>
+			<network>wiredcountry</network>
+			<description>Compass Communications Ltd purchases Wired Country Limited.</description>
+			<cite href="http://web.archive.org/web/20070623032418/http://www.wiredcountry.co.nz/index.html">Change of Ownership for Wired Country, Wired Country, 22-Apr-03</cite>
+		</event>
+		<event>
+			<year>2005</year>
+			<network>telecom</network>
+			<network>callplus</network>
+			<description>i4free reaches a confidential settlement with Telecom.</description>
+			<cite href="http://www.nzherald.co.nz/business/news/article.cfm?c_id=3&amp;objectid=10329918">Telecom settles dispute and dodges court order, NZ Herald, 10-Jun-05</cite>
+		</event>
+		<event>
+			<year>2005</year>
+			<network>telecom</network>
+			<description>Telecom introduces the government mandated Unbundled Bitstream Service (UBS), an ADSL service sold at wholesale prices (approximately 10% below the retail price) to other ISPs. UBS has a maximum upstream bandwidth of 128 kbit/s. Initially download speeds were limited to 256 kbit/s, with 1 Mbit/s and 2 Mbit/s options added later in the year. In late 2005 Telecom cancels its previous wholesale arrangements for JetStream and its plans with other ISPs. Only Telecom's own ISP, Xtra, could sell plans faster than the UBS options.</description>
+		</event>
+		<event>
+			<year>2006</year>
+			<month>4</month>
+			<network>telecom</network>
+			<description>Telecom introduces new JetStream plans with download speeds up to 3.5 Mbit/s and uploads up to 512 kbit/s.Competitors and customers reported slower than expected speeds, with one ISP director criticizing Telecom's backhaul network. The new plans were also criticised for reducing the data caps on downloads.</description>
+			<cite href="http://list.waikato.ac.nz/pipermail/nznog/2006-April/011394.html">[nznog] QSI / "industry" DSL problems caused by 3.5mbit upgrades?, Mark Frater, 27-Apr-2006</cite>
+		</event>
+		<event>
+			<year>2006</year>
+			<month>5</month>
+			<day>3</day>
+			<network>telecom</network>
+			<description>The New Zealand Government announces that it will require Telecom to unbundle the local loop to provide "access to fast, competitively priced broadband internet".</description>
+			<cite href="http://tvnz.co.nz/view/page/411366/709992">Govt announces broadband changes, TVNZ, 3-May-06</cite>
+		</event>
+		<event>
+			<year>2006</year>
+			<month>6</month>
+			<day>27</day>
+			<network>telecom</network>
+			<description>Telecom announces it will voluntarily separate its business into two operating business units — Wholesale and Retail.</description>
+			<cite href="http://www.telecom-media.co.nz/releases_detail.asp?id=3325&amp;page=index">Telecom to separate wholesale and retail operations, Telecom NZ, 27-Jun-06</cite>
+		</event>
+		<event>
+			<year>2006</year>
+			<month>7</month>
+			<network>fx</network>
+			<description>FX Networks secures contracts with the State Services Commission to become the backbone provider for the Government Services Network (GSN).</description>
+			<cite href="http://www.fxnetworks.co.nz/news/gsn-contract-signed/">GSN Contract Signed, FX Networks, 22-Jul-06</cite>
+		</event>
+		<event>
+			<year>2006</year>
+			<month>9</month>
+			<network>fx</network>
+			<description>FX Networks lights up its fibre network, with 10Gbit/s running from Wellington to Auckland.</description>
+			<cite href="http://www.fxnetworks.co.nz/news/network-light-up/">Network Light Up, FX Networks, 20-Sep-06</cite>
+		</event>
+		<event>
+			<year>2006</year>
+			<month>11</month>
+			<day>28</day>
+			<network>telecom</network>
+			<description>The Telecommunications Amendment Bill is introduced to split Telecom into three business units, with network access separated from the wholesale and retail units.</description>
+			<cite href="http://www.nzherald.co.nz/section/story.cfm?c_id=3&amp;ObjectID=10412818">Telecom's tough year continues — it's split into three, NZ Herald, 28-Nov-08</cite>
+		</event>
+		<event>
+			<year>2006</year>
+			<network>vodafone</network>
+			<network>ihug</network>
+			<description>iiNet sells ihug's remaining New Zealand operations to Vodafone.</description>
+		</event>
+		<event>
+			<year>2006</year>
+			<network>telecom</network>
+			<description>Telecom upgrades its EVDO mobile network to EVDO Revision A.</description>
+		</event>
+		<event>
+			<year>2007</year>
+			<month>3</month>
+			<day>31</day>
+			<network>telecom</network>
+			<description>Telecom's "025" D-AMPS cellular network is shut down.</description>
+			<cite href="http://www.nzherald.co.nz/section/1/story.cfm?c_id=1&amp;objectid=10431887">Goodbye to 025 network, NZ Herald, 31-Mar-07</cite>
+		</event>
+		<event>
+			<year>2007</year>
+			<month>6</month>
+			<network>fx</network>
+			<description>FX Networks builds KAREN, the Kiwi Advanced Research and Education Network. As part of the rollout, FX Networks added 530km of mainly rural fibre in six months, expanding its network to reach Nelson, Ashburton, Timaru, Oamaru and Dunedin.</description>
+			<cite href="">FX Networks and Karen, FX Networks, </cite>
+		</event>
+		<event>
+			<year>2007</year>
+			<month>8</month>
+			<day>31</day>
+			<network>compuserve</network>
+			<description>AOL shuts down CompuServe Pacific. All CompuServe customers in New Zealand are disconnected. A Fujitsu spokesperson Liz Greene said her understanding was the number of active accounts was "fairly small".</description>
+			<cite href="http://web.archive.org/web/20090114023338/http://computerworld.co.nz/news.nsf/netw/6A4613B0357B49C0CC25731E00030129?Opendocument&amp;HighLight=2,Compuserve">AOL shuts down Compuserve Pacific, Computerworld, 20-Jul-07</cite>
+		</event>
+		<event>
+			<year>2008</year>
+			<month>1</month>
+			<day>16</day>
+			<network>telecom</network>
+			<description>Telecom announces the formation of Chorus, its new network infrastructure division.</description>
+			<cite href="http://www.nzherald.co.nz/category/story.cfm?c_id=59&amp;objectid=10487239">Telecom's Chorus takes centre stage, NZ Herald, 17-Jan-08</cite>
+		</event>
+		<event>
+			<year>2008</year>
+			<month>3</month>
+			<day>31</day>
+			<network>telecom</network>
+			<description>Telecom is operationally separated into three distinct businesses under local loop unbundling initiatives by the government – Telecom Retail and Gen-i; Telecom Wholesale and International; and Chorus, the network infrastructure division.</description>
+		</event>
+		<event>
+			<year>2008</year>
+			<network>vodafone</network>
+			<description>Vodafone shuts down the ihug brand.</description>
+		</event>
+		<event>
+			<year>2008</year>
+			<network>telecom</network>
+			<description>Under an agreement with Telecom, AUT University builds a new 12-metre radio telescope at Telecom's Warkworth Satellite Earth Station.</description>
+			<cite href="http://www.telecom-media.co.nz/releases_detail.asp?id=3723&amp;page=index">New Recipe for Famous Dish, Telecom NZ, 19-Nov-10</cite>
+		</event>
+		<event>
+			<year>2009</year>
+			<network>pacrim</network>
+			<description>The PacRimEast cable between Auckland and Hawaii is removed and reused in a new cable system linking Samoa, American Samoa and Hawaii.</description>
+		</event>
+		<event>
+			<year>2009</year>
+			<month>5</month>
+			<network>telecom</network>
+			<description>Telecom launches its XT Mobile Network. The XT Network is a 3G WCDMA 850MHz network, with support for HSPA.</description>
+			<cite href="http://www.stuff.co.nz/business/industries/telecoms-it-media/2391180/Vodafone-Telecom-reach-deal">Vodafone, Telecom reach deal, Business Day, 8-May-09</cite>
+		</event>
+		<event>
+			<year>2009</year>
+			<month>8</month>
+			<day>5</day>
+			<network>twoDegrees</network>
+			<description>2degrees accepts its first customers for 2G calling/txting (GSM-900 and GSM-1800 EDGE) only.  Users can seamlessly roam onto Vodafone's network in places where 2degrees has no towers.</description>
+		</event>
+		<event>
+			<year>2009</year>
+			<month>12</month>
+			<network>telecom</network>
+			<description>Telecom's new XT Mobile Network fails from Taupo south due to a Radio Network Controller failure in Christchurch.</description>
+		</event>
+		<event>
+			<year>2010</year>
+			<month>2</month>
+			<network>telecom</network>
+			<description>Second major network outage for Telecoms XT Mobile Network caused by failing Radio Network Controller in Christchurch.</description>
+		</event>
+		<event>
+			<year>2010</year>
+			<month>8</month>
+			<day>3</day>
+			<network>twoDegrees</network>
+			<description>2degrees turns on 3G, offering 7.2Mbit/s over UMTS-2100 (urban) and UMTS-900 (rural). New data plans are announced, with the cheapest plans only available in areas where 2degrees has towers.</description>
+		</event>
+		<event>
+			<year>2010</year>
+			<month>11</month>
+			<day>19</day>
+			<network>telecom</network>
+			<description>Telecom gives AUT University a licence to operate the Warkworth 2 dish. AUT plans to convert the dish into a radio telescope, which will be linked to AUT's existing 12-metre dish at Telecom’s Warkworth Satellite Earth Station.</description>
+			<img src="radio-telescopes.jpg"/>
+			<cite href="http://www.telecom-media.co.nz/releases_detail.asp?id=3723&amp;page=index">New Recipe for Famous Dish, Telecom NZ, 19-Nov-10</cite>
+		</event>
+		<event>
+			<year>2011</year>
+			<month>5</month>
+			<day>24</day>
+			<network>telecom</network>
+			<description>Telecom enters into an agreement with the government to demerge Chorus and become the Crown's UFB partner in around 70% of the coverage area.</description>
+			<longdesc>Telecom enters into an agreement with the government to demerge Chorus and become the Crown's UFB partner in around 70% of the coverage area. Upon demerger, Chorus will provide layer 1 and 2 local access to fibre and copper services to retail telecommunications companies (RSPs), including Telecom. Telecom will retain its mobile network and provide some other wholesale and resale services to the industry, such as national backhaul, international voice and IP transit services.</longdesc>
+			<cite href="http://www.telecom-media.co.nz/releases_detail.asp?id=3775&amp;page=1&amp;pagesize=10&amp;filtertext=crown+fibre&amp;m1=4&amp;y1=2011&amp;m2=8&amp;y2=2012&amp;filter=filter">Chorus Selected as Cornerstone of Ultra-Fast Broadband Initiative, Telecom NZ, 24-May-2011</cite>
+		</event>
+		<event>
+			<year>2011</year>
+			<month>12</month>
+			<day>1</day>
+			<network>telecom</network>
+			<network>chorus</network>
+			<description>Telecom completes the seperation of Chorus via a demerger, meaning that Chorus is now an entirely stand-alone company.</description>
+			<cite href="http://www.telecom-media.co.nz/releases_detail.asp?id=3821&amp;page=1&amp;pagesize=10&amp;filtertext=chorus&amp;m1=10&amp;y1=2011&amp;m2=1&amp;y2=2012&amp;filter=filter">Telecom Completes Chorus Demerger, Telecom NZ, 1-Dec-2011</cite>
+		</event>
+		<event>
+			<year>2012</year>
+			<month>5</month>
+			<day>14</day>
+			<network>telecom</network>
+			<description>Telecom announces live customer trials of Long Term Evolution (LTE) mobile technology in late 2012 in preparation for the upgrade of the XT network to 4G.</description>
+		</event>
+		<event>
+			<year>2012</year>
+			<month>7</month>
+			<day>31</day>
+			<network>telecom</network>
+			<description>Telecom shuts down its CDMA network.</description>
+			<cite href="http://www.telecom-media.co.nz/releases_detail.asp?id=3850&amp;page=1&amp;pagesize=10&amp;filtertext=cdma&amp;m1=7&amp;y1=2011&amp;m2=12&amp;y2=2012&amp;filter=filter">Goodbye to CDMA Mobile Network at the End of July, Telecom NZ, 11-Jul-12</cite>
+		</event>
+		<event>
+			<year>2012</year>
+			<month>10</month>
+			<day>31</day>
+			<network>vodafone</network>
+			<network>telstraclear</network>
+			<description>Vodafone purchases TelstraClear.</description>
+		</event>
+	</events>
+</timeline>
